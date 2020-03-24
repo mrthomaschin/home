@@ -2,7 +2,7 @@
   "name": "welcome",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mrthomaschin.github.io/homepage",
+  "homepage": "http://mrthomaschin.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

@@ -31,7 +31,7 @@ class About extends Component {
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <a class="nav-link" id="about-main" href="/about">
+                  <a class="nav-link" id="about-main" href="/">
                     About
                   </a>
                 </li>

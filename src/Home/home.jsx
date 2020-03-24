@@ -34,7 +34,7 @@ class Home extends Component {
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="collapse navbar-collapse" id="nav-items">
               <ul class="navbar-nav mr-auto">
-                <a class="navbar-brand" href="/homepage">
+                <a class="navbar-brand" href="/">
                   TC
                 </a>
               </ul>
