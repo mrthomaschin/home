@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import img1 from "../Images/test-pic-lol.jpg";
 import img2 from "../Images/thomas-chin-engineer.png";
 import icon1 from "../Images/Icons/010-linkedin.svg";
@@ -33,20 +34,20 @@ class Home extends Component {
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="collapse navbar-collapse" id="nav-items">
               <ul class="navbar-nav mr-auto">
-                <a class="navbar-brand" href="/">
+                <Link class="nav-brand" to="/">
                   TC
-                </a>
+                </Link>
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <a class="nav-link" id="about-main" href="/about">
+                  <Link class="nav-link" to="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="/projects">
+                  <Link class="nav-link" to="/projects">
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a class="nav-link" id="about-main" href="/">
