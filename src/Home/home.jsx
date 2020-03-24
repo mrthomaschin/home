@@ -21,7 +21,6 @@ class Home extends Component {
           />
           <meta property="og:title" content=" Main Page" />
           <meta property="og:site_name" content="Personal Website" />
-          <meta property="og:url" content="mrthomaschin.github.io/welcome" />
           <meta property="og:type" content="website" />
           <meta property="og:image" content="" />
           <meta charset="utf-8" />
