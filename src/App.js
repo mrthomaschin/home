@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { Switch, BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Switch, Route, withRouter } from "react-router-dom";
 import "./App.css";
 
 /* Website Components */
-import Home from "./Home/home.jsx";
-// import FollowershipSurvey from "./SurveyComponents/FollowershipSurvey.js";
+import HomePage from "./Home/home.jsx";
+import AboutPage from "./About/about.jsx";
+import ProjectsPage from "./Projects/projects.jsx";
 // import Survey3 from "./SurveyComponents/Survey3.js";
 // import SurveyResults from "./SurveyComponents/SurveyResults.js";
 // import Home from "./SurveyComponents/SurveyHome.js";
@@ -13,20 +14,12 @@ import Home from "./Home/home.jsx";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            {/* <Route path="/PrivacyPolicy" component={PrivacyPolicy} />
-            <Route path="/SurveyHome" component={Home} />
-            <Route path="/LeadershipSurvey" component={LeadershipSurvey} />
-            <Route path="/Survey3" component={Survey3} />
-            <Route path="/FollowershipSurvey" component={FollowershipSurvey} />
-            <Route path="/Demographics" component={Demographics} />
-            <Route path="/results" component={SurveyResults} /> */}
-          </Switch>
-        </Router>
-      </div>
+      <Switch>
+        <Route path="/" component={HomePage} exact />
+        <Route path="/homepage" component={HomePage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/projects" component={ProjectsPage} />
+      </Switch>
     );
   }
 }

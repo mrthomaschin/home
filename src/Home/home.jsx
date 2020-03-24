@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import img1 from "../Images/test-pic-lol.jpg";
+import img2 from "../Images/thomas-chin-engineer.png";
+import icon1 from "../Images/Icons/010-linkedin.svg";
+import icon2 from "../Images/Icons/github.svg";
+import icon3 from "../Images/Icons/011-instagram.svg";
 import "./home.css";
 
 class Home extends Component {
@@ -29,34 +34,34 @@ class Home extends Component {
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="collapse navbar-collapse" id="nav-items">
               <ul class="navbar-nav mr-auto">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/homepage">
                   TC
                 </a>
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <a class="nav-link" id="about-main" href="about.html">
+                  <a class="nav-link" id="about-main" href="/about">
                     About
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="projects.html">
+                  <a class="nav-link" id="about-main" href="/projects">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="photography.html">
+                  <a class="nav-link" id="about-main" href="/">
                     Photography
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="music.html">
+                  <a class="nav-link" id="about-main" href="/">
                     Music
                   </a>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="about.html">
-                    Resume
+                  <a class="nav-link" id="about-main" href="/">
+                    Resumé
                   </a>
                 </li>
               </ul>
@@ -66,16 +71,14 @@ class Home extends Component {
             <div class="row justify-content-center">
               <div id="main-title">
                 <img
-                  class="img-responsive center-block"
-                  src="./Images/test-pic-lol.jpg"
+                  class="img-responsive center-block profile-pic-1"
+                  src={img1}
                   alt="test-pic"
-                  style="max-height: 700px; padding-top: 60px;"
                 />
                 <img
-                  class="img-responsive center-block"
-                  src="./Images/thomas-chin-engineer.png"
+                  class="img-responsive center-block off-white-thomas"
+                  src={img2}
                   alt="off-white-text"
-                  style="max-width: 650px; padding-top: 160px;"
                 />
               </div>
             </div>
@@ -108,14 +111,7 @@ class Home extends Component {
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="project-image">
-                        <img
-                          class="img-responsive center-block"
-                          src="./Images/tboard.jpeg"
-                          alt="tboard"
-                          style="max-width: 500px; padding-top: 60px;"
-                        />
-                      </div>
+                      <div class="project-image"></div>
                     </div>
                   </div>
                 </div>
@@ -138,23 +134,14 @@ class Home extends Component {
                 <a
                   class="social"
                   href="https://www.linkedin.com/in/mrthomaschin/"
-                  target="_blank"
                 >
-                  <img src="./Images/Icons/010-linkedin.svg" width="40px" />
+                  <img src={icon1} width="40px" alt="linkedin" />
                 </a>
-                <a
-                  class="social"
-                  href="https://github.com/mrthomaschin"
-                  target="_blank"
-                >
-                  <img src="./Images/Icons/github.svg" width="40px" />
+                <a class="social" href="https://github.com/mrthomaschin">
+                  <img src={icon2} width="40px" alt="github" />
                 </a>
-                <a
-                  class="social"
-                  href="https://www.instagram.com/chinsanity_/"
-                  target="_blank"
-                >
-                  <img src="./Images/Icons/011-instagram.svg" width="40px" />
+                <a class="social" href="https://www.instagram.com/chinsanity_/">
+                  <img src={icon3} width="40px" alt="instagram" />
                 </a>
               </div>
             </div>

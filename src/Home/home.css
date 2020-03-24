@@ -10,10 +10,19 @@ nav {
   font-style: normal;
 }
 
+.profile-pic-1 {
+  max-height: 700px;
+  padding-top: 60px;
+}
+
+.off-white-thomas {
+  max-width: 650px;
+  padding-top: 160px;
+}
+
 #main-page {
   background-color: "white";
   height: 100vh;
-  width: 100vw;
 }
 
 .section-title {
