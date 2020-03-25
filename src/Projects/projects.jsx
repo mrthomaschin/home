@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import NavBar from "../components/navbar.jsx";
+import Social from "../components/sm_bar.jsx";
 import "./projects.css";
 
 class Projects extends Component {
@@ -23,43 +24,10 @@ class Projects extends Component {
           />
         </head>
         <body>
-          <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="collapse navbar-collapse" id="nav-items">
-              <ul class="navbar-nav mr-auto">
-                <Link class="nav-brand" to="/">
-                  TC
-                </Link>
-              </ul>
-              <ul class="navbar-nav ml-auto">
-                <li>
-                  <Link class="nav-link" to="/about">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link class="nav-link" to="/projects">
-                    Projects
-                  </Link>
-                </li>
-                <li>
-                  <a class="nav-link" id="about-main" href="/">
-                    Photography
-                  </a>
-                </li>
-                <li>
-                  <a class="nav-link" id="about-main" href="/">
-                    Music
-                  </a>
-                </li>
-                <li>
-                  <a class="nav-link" id="about-main" href="/">
-                    Resumé
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <div>PROOOOOJJJJJEEEECCCTTTTSSS</div>
+          {/* NavBar */}
+          <NavBar />
+          {/* Social Media Bar */}
+          <Social />
         </body>
       </div>
     );

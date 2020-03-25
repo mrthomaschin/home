@@ -3,27 +3,6 @@
   src: url("../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
-nav {
-  background-color: #000000;
-  font-family: "helvetica-neue-bold";
-  font-weight: normal;
-  font-style: normal;
-}
-
-#handles {
-  text-align: center;
-  height: 200px;
-}
-.social {
-  font-size: 40px;
-  padding: 5px;
-}
-
-.top-buffer {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .row {
   margin-right: 20px;
   margin-left: 20px;

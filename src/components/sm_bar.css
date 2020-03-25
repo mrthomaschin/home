@@ -1,0 +1,15 @@
+#handles {
+  text-align: center;
+  height: 100px;
+}
+.social {
+  font-size: 40px;
+  padding: 5px;
+}
+
+.row {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

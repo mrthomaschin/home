@@ -3,13 +3,6 @@
   src: url("../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
-nav {
-  background-color: #000000;
-  font-family: "helvetica-neue-bold";
-  font-weight: normal;
-  font-style: normal;
-}
-
 .profile-pic-1 {
   max-height: 700px;
   padding-top: 60px;
@@ -61,20 +54,6 @@ nav {
   color: #ffffff;
   height: 400px;
   overflow: hidden;
-}
-
-#handles {
-  text-align: center;
-  height: 200px;
-}
-.social {
-  font-size: 40px;
-  padding: 5px;
-}
-
-.top-buffer {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .row {

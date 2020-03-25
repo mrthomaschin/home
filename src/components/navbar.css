@@ -3,9 +3,9 @@
   src: url("../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
-.row {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
+nav {
+  background-color: #000000;
+  font-family: "helvetica-neue-bold";
+  font-weight: normal;
+  font-style: normal;
 }
