@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.b7ca5851.chunk.css",
-    "main.js": "/homepage/static/js/main.356256b6.chunk.js",
-    "main.js.map": "/homepage/static/js/main.356256b6.chunk.js.map",
+    "main.css": "/homepage/static/css/main.b5b97744.chunk.css",
+    "main.js": "/homepage/static/js/main.75a0219f.chunk.js",
+    "main.js.map": "/homepage/static/js/main.75a0219f.chunk.js.map",
     "runtime-main.js": "/homepage/static/js/runtime-main.c65a728c.js",
     "runtime-main.js.map": "/homepage/static/js/runtime-main.c65a728c.js.map",
     "static/css/2.89f067aa.chunk.css": "/homepage/static/css/2.89f067aa.chunk.css",
-    "static/js/2.9136d4be.chunk.js": "/homepage/static/js/2.9136d4be.chunk.js",
-    "static/js/2.9136d4be.chunk.js.map": "/homepage/static/js/2.9136d4be.chunk.js.map",
+    "static/js/2.83484c0d.chunk.js": "/homepage/static/js/2.83484c0d.chunk.js",
+    "static/js/2.83484c0d.chunk.js.map": "/homepage/static/js/2.83484c0d.chunk.js.map",
     "index.html": "/homepage/index.html",
-    "precache-manifest.b1fe65dc0a61df914791a861ec36d820.js": "/homepage/precache-manifest.b1fe65dc0a61df914791a861ec36d820.js",
+    "precache-manifest.d1b5621c3cb56d2e17186b9b74792ac1.js": "/homepage/precache-manifest.d1b5621c3cb56d2e17186b9b74792ac1.js",
     "service-worker.js": "/homepage/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/homepage/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.b7ca5851.chunk.css.map": "/homepage/static/css/main.b7ca5851.chunk.css.map",
-    "static/js/2.9136d4be.chunk.js.LICENSE.txt": "/homepage/static/js/2.9136d4be.chunk.js.LICENSE.txt",
+    "static/css/main.b5b97744.chunk.css.map": "/homepage/static/css/main.b5b97744.chunk.css.map",
+    "static/js/2.83484c0d.chunk.js.LICENSE.txt": "/homepage/static/js/2.83484c0d.chunk.js.LICENSE.txt",
     "static/media/010-linkedin.svg": "/homepage/static/media/010-linkedin.9e36c8fd.svg",
     "static/media/011-instagram.svg": "/homepage/static/media/011-instagram.5b23a837.svg",
     "static/media/projects.css": "/homepage/static/media/Helvetica Neu Bold.7f281199.ttf",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.c65a728c.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.9136d4be.chunk.js",
-    "static/css/main.b7ca5851.chunk.css",
-    "static/js/main.356256b6.chunk.js"
+    "static/js/2.83484c0d.chunk.js",
+    "static/css/main.b5b97744.chunk.css",
+    "static/js/main.75a0219f.chunk.js"
   ]
 }
