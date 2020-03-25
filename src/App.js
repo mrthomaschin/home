@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
 /* Website Components */
-import HomePage from "./Home/home.jsx";
-import AboutPage from "./About/about.jsx";
-import ProjectsPage from "./Projects/projects.jsx";
+import HomePage from "./pages/home.jsx";
+import AboutPage from "./pages/about.jsx";
+import ProjectsPage from "./pages/projects.jsx";
 
 class App extends Component {
   render() {

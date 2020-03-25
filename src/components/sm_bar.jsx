@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import icon1 from "../Images/Icons/010-linkedin.svg";
 import icon2 from "../Images/Icons/github.svg";
 import icon3 from "../Images/Icons/011-instagram.svg";
-import "./sm_bar.css";
+import "./css/sm_bar.css";
 
 class SocialMedia extends Component {
   state = {};

@@ -3,7 +3,7 @@ import img1 from "../Images/test-pic-lol.jpg";
 import img2 from "../Images/thomas-chin-engineer.png";
 import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
-import "./home.css";
+import "./css/home.css";
 
 class Home extends Component {
   state = {};

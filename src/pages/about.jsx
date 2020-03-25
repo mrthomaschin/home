@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import NavBar from "../components/navbar.jsx";
 import Social from "../components/sm_bar.jsx";
-import "./projects.css";
+import "./css/about.css";
 
-class Projects extends Component {
+class About extends Component {
   state = {};
   render() {
     return (
@@ -34,4 +34,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default About;
