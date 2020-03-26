@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.b82c348a.chunk.css",
-    "main.js": "/homepage/static/js/main.152550fd.chunk.js",
-    "main.js.map": "/homepage/static/js/main.152550fd.chunk.js.map",
+    "main.css": "/homepage/static/css/main.a3a90ba0.chunk.css",
+    "main.js": "/homepage/static/js/main.cfd6d99a.chunk.js",
+    "main.js.map": "/homepage/static/js/main.cfd6d99a.chunk.js.map",
     "runtime-main.js": "/homepage/static/js/runtime-main.c65a728c.js",
     "runtime-main.js.map": "/homepage/static/js/runtime-main.c65a728c.js.map",
     "static/css/2.89f067aa.chunk.css": "/homepage/static/css/2.89f067aa.chunk.css",
-    "static/js/2.83484c0d.chunk.js": "/homepage/static/js/2.83484c0d.chunk.js",
-    "static/js/2.83484c0d.chunk.js.map": "/homepage/static/js/2.83484c0d.chunk.js.map",
+    "static/js/2.d98e5c6f.chunk.js": "/homepage/static/js/2.d98e5c6f.chunk.js",
+    "static/js/2.d98e5c6f.chunk.js.map": "/homepage/static/js/2.d98e5c6f.chunk.js.map",
     "index.html": "/homepage/index.html",
-    "precache-manifest.73baf8d5863a5b336269de69989aef57.js": "/homepage/precache-manifest.73baf8d5863a5b336269de69989aef57.js",
+    "precache-manifest.ca9f06c925401dbfdfdd066e11029d7d.js": "/homepage/precache-manifest.ca9f06c925401dbfdfdd066e11029d7d.js",
     "service-worker.js": "/homepage/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/homepage/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.b82c348a.chunk.css.map": "/homepage/static/css/main.b82c348a.chunk.css.map",
-    "static/js/2.83484c0d.chunk.js.LICENSE.txt": "/homepage/static/js/2.83484c0d.chunk.js.LICENSE.txt",
+    "static/css/main.a3a90ba0.chunk.css.map": "/homepage/static/css/main.a3a90ba0.chunk.css.map",
+    "static/js/2.d98e5c6f.chunk.js.LICENSE.txt": "/homepage/static/js/2.d98e5c6f.chunk.js.LICENSE.txt",
     "static/media/010-linkedin.svg": "/homepage/static/media/010-linkedin.9e36c8fd.svg",
     "static/media/011-instagram.svg": "/homepage/static/media/011-instagram.5b23a837.svg",
-    "static/media/projects.css": "/homepage/static/media/Helvetica Neu Bold.7f281199.ttf",
+    "static/media/repairs.css": "/homepage/static/media/CircularStd-Bold.6baed2bf.otf",
+    "static/media/photos.css": "/homepage/static/media/Helvetica Neu Bold.7f281199.ttf",
     "static/media/github.svg": "/homepage/static/media/github.ddc25012.svg",
     "static/media/test-pic-lol.jpg": "/homepage/static/media/test-pic-lol.b917c7af.jpg",
     "static/media/thomas-chin-engineer.png": "/homepage/static/media/thomas-chin-engineer.07549b12.png"
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.c65a728c.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.83484c0d.chunk.js",
-    "static/css/main.b82c348a.chunk.css",
-    "static/js/main.152550fd.chunk.js"
+    "static/js/2.d98e5c6f.chunk.js",
+    "static/css/main.a3a90ba0.chunk.css",
+    "static/js/main.cfd6d99a.chunk.js"
   ]
 }
