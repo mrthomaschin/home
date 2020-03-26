@@ -31,13 +31,25 @@ class SocialMedia extends Component {
                 <a
                   class="social"
                   href="https://www.linkedin.com/in/mrthomaschin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src={icon1} width="40px" alt="linkedin" />
                 </a>
-                <a class="social" href="https://github.com/mrthomaschin">
+                <a
+                  class="social"
+                  href="https://github.com/mrthomaschin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={icon2} width="40px" alt="github" />
                 </a>
-                <a class="social" href="https://www.instagram.com/chinsanity_/">
+                <a
+                  class="social"
+                  href="https://www.instagram.com/chinsanity_/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={icon3} width="40px" alt="instagram" />
                 </a>
               </div>

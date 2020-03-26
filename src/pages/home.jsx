@@ -29,7 +29,9 @@ class Home extends Component {
           />
         </head>
         <body>
+          {/* NavBar */}
           <NavBar />
+          {/* Main Section */}
           <div id="main-page">
             <div class="row justify-content-center">
               <div id="main-title">
@@ -52,7 +54,7 @@ class Home extends Component {
               <div class="col-12 text-center">
                 <div class="section-title">"HI, I'M THOMAS."</div>
                 <p2>
-                  4th-year studying Computer Engineering at the Unversity of
+                  4th-year studying Computer Engineering at the University of
                   California, Riverside. Fascinated in all things technology.
                   Deeply passionate about creating others that will have a
                   positive impact on the world and benefit others!
@@ -86,7 +88,10 @@ class Home extends Component {
             <div class="row">
               <div class="col-12 text-center">
                 <div class="section-title">"CONTACT"</div>
-                <p2>Questions? Shoot me an email!</p2>
+                <p2>
+                  Questions? Shoot me an
+                  <a href="mailto: thomasc246@gmail.com"> email</a>!
+                </p2>
               </div>
             </div>
           </div>

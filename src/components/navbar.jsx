@@ -45,19 +45,24 @@ class NavBar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="/">
+                  <Link class="nav-link" to="/photography">
                     Photography
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="/">
+                  <Link class="nav-link" to="/">
                     Music
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a class="nav-link" id="about-main" href="/">
+                  <Link class="nav-link" to="/repairs">
+                    Repairs
+                  </Link>
+                </li>
+                <li>
+                  <Link class="nav-link" to="/">
                     Resumé
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

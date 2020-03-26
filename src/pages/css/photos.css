@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "helvetica-neue-bold";
+  src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
+}
+
+.row {
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
