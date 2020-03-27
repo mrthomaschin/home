@@ -29,7 +29,7 @@ class Repairs extends Component {
           <NavBar />
           {/* Main Page */}
           <div class="background1">
-            <div id="main-text">
+            <div id="main-text-repairs">
               <div id="first-page" class="text-box">
                 <div class="row">
                   <div class="col-8">
@@ -45,7 +45,7 @@ class Repairs extends Component {
           <div class="background2">
             <div class="row">
               <div class="col-12">
-                <div id="summary" class="text-box text">
+                <div id="summary" class="text-box text-repairs">
                   I love tinkering! I would consider repairing tech items a
                   specialty of mine. I have worked with several computers,
                   laptops, and smartphones. My work ranges from simple battery
@@ -64,7 +64,7 @@ class Repairs extends Component {
           <div class="background3">
             <div class="row">
               <div class="col-12">
-                <div id="parts-list" class="text-box text">
+                <div id="parts-list" class="text-box text-repairs">
                   List of a few of the devices I've worked with:
                   <li>MacBook Pro</li>
                   <li>MacBook Air</li>

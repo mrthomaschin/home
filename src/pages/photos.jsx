@@ -27,7 +27,7 @@ class Photography extends Component {
           {/* NavBar */}
           <NavBar />
           {/* Main Page */}
-          <div id="main-page">
+          <div id="main-page-photo">
             <div class="text-box">
               <div class="row justify-content-center">
                 <div class="text">Thomas Chin</div>

@@ -1,0 +1,14 @@
+{
+  "Projects": [
+    {
+      "title": "TBOARD",
+      "date": "OCT 2019",
+      "description": "An Arduino-powered electric skateboard. Whaaaa"
+    },
+    {
+      "title": "Food",
+      "date": "OCT 2019",
+      "description": "I'm hungry"
+    }
+  ]
+}

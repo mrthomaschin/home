@@ -3,7 +3,36 @@ import img1 from "../Images/test-pic-lol.jpg";
 import img2 from "../Images/thomas-chin-engineer.png";
 import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
+import ProjBrief from "../data/projects-brief.json";
 import "./css/home.css";
+
+function AddProject() {
+  return (
+    <div class="text-box-projects">
+      {ProjBrief.Projects.map((project, x) => {
+        return (
+          <div>
+            <div class="row project-brief-header">
+              <div class="col-4 text-left">
+                <div class="project-title">"{project.title}"</div>
+              </div>
+              <div class="col-8 text-right">
+                <div class="project-date">&copy; {project.date}</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8 text-left">
+                <div> {project.description}</div>
+                <div class="project-image"></div>
+              </div>
+            </div>
+            <div class="whitespace"></div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
 
 class Home extends Component {
   state = {};
@@ -32,7 +61,7 @@ class Home extends Component {
           {/* NavBar */}
           <NavBar />
           {/* Main Section */}
-          <div id="main-page">
+          <div class="main-page">
             <div class="row justify-content-center">
               <div id="main-title">
                 <img
@@ -68,17 +97,7 @@ class Home extends Component {
               <div class="col-12 text-center">
                 <div class="section-title">"PROJECTS"</div>
                 <div class="row">
-                  <div class="row justify-content-around">
-                    <div class="col-6">
-                      <div class="project-title">"TBOARD"</div>
-                      <div class="project-date"> &copy OCT 2019</div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="project-image"></div>
-                    </div>
-                  </div>
+                  <AddProject />
                 </div>
               </div>
             </div>

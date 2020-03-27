@@ -30,7 +30,7 @@ class NavBar extends Component {
             <div class="collapse navbar-collapse" id="nav-items">
               <ul class="navbar-nav mr-auto">
                 <Link class="nav-brand" to="/">
-                  TC
+                  Home
                 </Link>
               </ul>
               <ul class="navbar-nav ml-auto">

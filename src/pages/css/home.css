@@ -13,8 +13,8 @@
   padding-top: 160px;
 }
 
-#main-page {
-  background-color: "white";
+.main-page {
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -56,9 +56,24 @@
   overflow: hidden;
 }
 
+.text-box-projects {
+  margin: auto;
+  width: 1100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .row {
   margin-right: 20px;
   margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.project-brief-header {
+  padding-bottom: 20px;
+}
+
+.whitespace {
+  margin-bottom: 100px;
 }
