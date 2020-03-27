@@ -26,6 +26,37 @@ class Photography extends Component {
         <body>
           {/* NavBar */}
           <NavBar />
+          {/* Main Page */}
+          <div id="main-page">
+            <div class="text-box">
+              <div class="row justify-content-center">
+                <div class="text">Thomas Chin</div>
+              </div>
+              <div class="row justify-content-center">
+                <div id="main-text">Photography</div>
+              </div>
+            </div>
+          </div>
+          {/* Short bio */}
+          <div id="short-page">
+            <div class="text-box">
+              <div class="row">
+                <div class="col-8">I have been doing photography.</div>
+                <div class="col-4">**Insert photo here**</div>
+              </div>
+            </div>
+          </div>
+          {/* Photos */}
+          <div id="photos-page">
+            <div class="text-box">
+              <div class="row justify-content-center">Graduation Photos</div>
+            </div>
+          </div>
+          <div id="photos-page">
+            <div class="text-box">
+              <div class="row justify-content-center">Families</div>
+            </div>
+          </div>
           {/* Social Media Bar */}
           <Social />
         </body>

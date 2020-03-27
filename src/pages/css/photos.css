@@ -1,6 +1,36 @@
 @font-face {
-  font-family: "helvetica-neue-bold";
-  src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
+  font-family: "sf-pro";
+  src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
+}
+
+#main-page {
+  height: 600px;
+}
+
+#short-page {
+  height: 600px;
+}
+
+#photos-page {
+  height: 600px;
+}
+
+#main-text {
+  font-family: "sf-pro";
+  font-size: 80px;
+  color: black;
+}
+
+.text {
+  font-family: "sf-pro";
+  font-size: 30px;
+  color: black;
+}
+
+.text-box {
+  margin: auto;
+  padding-top: 160px;
+  width: 1000px;
 }
 
 .row {

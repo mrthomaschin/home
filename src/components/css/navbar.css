@@ -3,9 +3,15 @@
   src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "sf-pro";
+  src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
+}
+
 nav {
   background-color: #000000;
-  font-family: "helvetica-neue-bold";
-  font-weight: normal;
+  font-family: "sf-pro";
+  font-weight: bold;
   font-style: normal;
+  color: white;
 }

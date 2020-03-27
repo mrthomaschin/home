@@ -15,7 +15,7 @@ class NavBar extends Component {
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
           />
-          <meta property="og:title" content=" Main Page" />
+          <meta property="og:title" content="Nav Bar" />
           <meta property="og:site_name" content="Personal Website" />
           <meta property="og:type" content="website" />
           <meta property="og:image" content="" />
