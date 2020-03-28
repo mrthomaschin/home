@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../components/navbar.jsx";
 import Social from "../components/sm_bar.jsx";
-import img1 from "../Images/imac.png";
 import "./css/repairs.css";
 
 class Repairs extends Component {
@@ -36,7 +35,11 @@ class Repairs extends Component {
                     i believe that anyone can fix anything.
                   </div>
                   <div class="col-4">
-                    <img id="main-pic" src={img1} alt="main-pic" />
+                    <img
+                      id="main-pic"
+                      src={require("../Images/imac.png")}
+                      alt="main-pic"
+                    />
                   </div>
                 </div>
               </div>

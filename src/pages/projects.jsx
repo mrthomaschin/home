@@ -3,23 +3,63 @@ import NavBar from "../components/navbar.jsx";
 import Social from "../components/sm_bar.jsx";
 import json from "../data/projects.json";
 import { Modal } from "react-bootstrap";
-import { Slide } from "react-slideshow-image";
+// import { Slide } from "react-slideshow-image";
 import "./css/projects.css";
 
-const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  arrows: true,
-  pauseOnHover: true,
-  onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
-};
+// const properties = {
+//   duration: 5000,
+//   transitionDuration: 500,
+//   infinite: true,
+//   indicators: true,
+//   arrows: true,
+//   pauseOnHover: true,
+//   onChange: (oldIndex, newIndex) => {
+//     console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+//   }
+// };
 
 class Projects extends Component {
   state = {};
+
+  projectSizeSelect(projectsize) {
+    if (projectsize === "small") {
+      return (
+        <>
+          <div class="square2 border border-dark">S</div>
+          <div class="square border border-dark">M</div>
+          <div class="square border border-dark">L</div>
+          <div class="square border border-dark">XL</div>
+        </>
+      );
+    } else if (projectsize === "medium") {
+      return (
+        <>
+          <div class="square border border-dark">S</div>
+          <div class="square2 border border-dark">M</div>
+          <div class="square border border-dark">L</div>
+          <div class="square border border-dark">XL</div>
+        </>
+      );
+    } else if (projectsize === "large") {
+      return (
+        <>
+          <div class="square border border-dark">S</div>
+          <div class="square border border-dark">M</div>
+          <div class="square2 border border-dark">L</div>
+          <div class="square border border-dark">XL</div>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <div class="square border border-dark">S</div>
+          <div class="square border border-dark">M</div>
+          <div class="square border border-dark">L</div>
+          <div class="square2 border border-dark">XL</div>
+        </>
+      );
+    }
+  }
 
   showModal = this.showModal.bind(this);
   hideModal = this.hideModal.bind(this);
@@ -67,7 +107,13 @@ class Projects extends Component {
                   <div class="projects-text-box">
                     <div id="slidecontainer">
                       <div class="row">
-                        <div class="col-7">Insert picture here</div>
+                        <div class="col-7">
+                          <img
+                            class="proj-img"
+                            src={require("../Images" + project.imgURL)}
+                            alt="pic"
+                          />
+                        </div>
                         <div class="col-5">
                           <div class="row p-big whitespace-small">
                             "{project.title}"
@@ -80,11 +126,8 @@ class Projects extends Component {
                           </div>
                           <div class="rectangle-projects" />
                           <div class="row p-med whitespace offset-left">
-                            Project Size:
-                            <div class="square border border-dark">S</div>
-                            <div class="square2 border border-dark">M</div>
-                            <div class="square border border-dark">L</div>
-                            <div class="square border border-dark">XL</div>
+                            Project Size:{" "}
+                            {this.projectSizeSelect(project.projectsize)}
                           </div>
                           <div class="row p-small whitespace offset-left">
                             <li> {project.descriptionbrief} </li>

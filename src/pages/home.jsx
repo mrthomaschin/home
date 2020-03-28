@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import img1 from "../Images/test-pic-lol.jpg";
-import img2 from "../Images/thomas-chin-engineer.png";
 import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
@@ -67,12 +65,12 @@ class Home extends Component {
               <div id="main-title">
                 <img
                   class="img-responsive center-block profile-pic-1"
-                  src={img1}
+                  src={require("../Images/test-pic-lol.jpg")}
                   alt="test-pic"
                 />
                 <img
                   class="img-responsive center-block off-white-thomas"
-                  src={img2}
+                  src={require("../Images/thomas-chin-engineer.png")}
                   alt="off-white-text"
                 />
               </div>

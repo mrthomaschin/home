@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../components/navbar.jsx";
 import Social from "../components/sm_bar.jsx";
-import img1 from "../Images/ow_stripes.jpg";
 import "./css/about.css";
 
 class About extends Component {
@@ -83,7 +82,11 @@ class About extends Component {
                   <div class="col-space">
                     <div class="row">Insert picture here</div>
                     <div class="row">
-                      <img class="ow-stripes" src={img1} alt="owstripes" />
+                      <img
+                        class="ow-stripes"
+                        src={require("../Images/ow_stripes.jpg")}
+                        alt="owstripes"
+                      />
                     </div>
                   </div>
                 </div>
