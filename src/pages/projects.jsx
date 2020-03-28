@@ -104,55 +104,53 @@ class Projects extends Component {
             <div id="projects-main" class="projects-text-box">
               {json.Projects.map((project, index) => (
                 <div>
-                  <div class="projects-text-box">
-                    <div id="slidecontainer">
-                      <div class="row">
-                        <div class="col-7">
-                          <img
-                            class="proj-img"
-                            src={require("../Images" + project.imgURL)}
-                            alt="pic"
-                          />
-                        </div>
-                        <div class="col-5">
-                          <div class="row p-big whitespace-small">
-                            "{project.title}"
-                          </div>
-                          <div class="row p-small offset-left whitespace-small">
-                            {project.tools}
-                          </div>
-                          <div class="row p-med offset-left">
-                            $ {project.date}
-                          </div>
-                          <div class="rectangle-projects" />
-                          <div class="row p-med whitespace offset-left">
-                            Project Size:{" "}
-                            {this.projectSizeSelect(project.projectsize)}
-                          </div>
-                          <div class="row p-small whitespace offset-left">
-                            <li> {project.descriptionbrief} </li>
-                          </div>
-                          <button
-                            class="btn rect-button"
-                            onClick={e => this.showModal(e, index)}
-                          >
-                            <div class="p-med text-center text-white offset-left">
-                              Learn More
-                            </div>
-                          </button>
-                          <button class="btn p-small offset-left">
-                            <a
-                              href={project.github}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Github Repository
-                            </a>
-                          </button>
-                        </div>
+                  <div class="projects-text-box" id={project.section}>
+                    <div class="row">
+                      <div class="col-7">
+                        <img
+                          class="proj-img"
+                          src={require("../Images" + project.imgURL)}
+                          alt="pic"
+                        />
                       </div>
-                      <div class="whitespace-big" />
+                      <div class="col-5">
+                        <div class="row p-big whitespace-small">
+                          "{project.title}"
+                        </div>
+                        <div class="row p-small offset-left whitespace-small">
+                          {project.tools}
+                        </div>
+                        <div class="row p-med offset-left">
+                          $ {project.date}
+                        </div>
+                        <div class="rectangle-projects" />
+                        <div class="row p-med whitespace offset-left">
+                          Project Size:{" "}
+                          {this.projectSizeSelect(project.projectsize)}
+                        </div>
+                        <div class="row p-small whitespace offset-left">
+                          <li> {project.descriptionbrief} </li>
+                        </div>
+                        <button
+                          class="btn rect-button"
+                          onClick={e => this.showModal(e, index)}
+                        >
+                          <div class="p-med text-center text-white offset-left">
+                            Learn More
+                          </div>
+                        </button>
+                        <button class="btn p-small offset-left">
+                          <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Github Repository
+                          </a>
+                        </button>
+                      </div>
                     </div>
+                    <div class="whitespace-big" />
                   </div>
                   {/* Modal template */}
                   <Modal

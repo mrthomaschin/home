@@ -9,18 +9,20 @@
       "tools": "C++, Arduino, UART, Embedded Systems",
       "projectsize": "large",
       "github": "https://github.com/mrthomaschin/Tboard",
-      "imgURL": "/tboard.jpeg"
+      "imgURL": "/tboard.jpeg",
+      "section": "section-1"
     },
     {
       "title": "HOMEPAGE",
       "date": "MAR 2020 - PRESENT",
       "descriptionbrief": "What you're looking at right now: my personal website!",
-      "descriptionmain1": "I'm proud to say that I have built my own personal website from scratch. Websites are great ways to only display personal projects, but also hobbies and interests so you can get to learn a little more about me.",
-      "descriptionmain2": "I constructed this website using React.js and modifying it to deploy through Github Pages. React is a powerful tool for creating clean and organized UI. I chose 'Off-White', Virgil Abloh's signature designer brand, as my main theme. I personally have never taken classes on these languages/tools, so this website has been a fruitful learning experiences for me!",
+      "descriptionmain1": "I'm proud to say that I have built my own personal website from scratch. Websites are great ways to only display personal projects, but also hobbies and interests so you can get to learn a little more about me. React is a powerful tool for creating clean and organized UI. I chose 'Off-White', Virgil Abloh's signature designer brand, as my main theme.",
+      "descriptionmain2": "I constructed this website using React.js and modifying it to deploy through Github Pages. For the 'Projects' sections, my website dynamically renders the designs based on a JSON file. That way, if I have any new projects I can simply add it into my JSON file and the website will do the rest of the work. I personally have never taken classes on these languages/tools, so this website has been a fruitful learning experiences for me!",
       "tools": "HTML, CSS, Javascript, React.js, Bootstrap",
       "projectsize": "large",
       "github": "https://github.com/mrthomaschin/homepage",
-      "imgURL": "/tboard.jpeg"
+      "imgURL": "/tboard.jpeg",
+      "section": "section-2"
     },
     {
       "title": "Test3",
@@ -31,7 +33,8 @@
       "tools": "Arduino, Embedd3ems",
       "projectsize": "medium",
       "github": "https://github.com/mrthomaschin/",
-      "imgURL": "/tboard.jpeg"
+      "imgURL": "/tboard.jpeg",
+      "section": "section-3"
     }
   ]
 }

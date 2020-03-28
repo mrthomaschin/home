@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HashLink } from "react-router-hash-link";
 import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
@@ -21,7 +22,11 @@ function AddProject() {
             <div class="row">
               <div class="col-8 text-left">
                 <div> {project.descriptionbrief}</div>
-                <div class="project-image"></div>
+              </div>
+              <div class="col-4 text-right">
+                <HashLink class="nav-link" to={"/projects#" + project.section}>
+                  Project Page
+                </HashLink>
               </div>
             </div>
             <div class="rectangle" />
