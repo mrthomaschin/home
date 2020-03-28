@@ -11,20 +11,28 @@ function ProjectsMenu() {
         return <div>Hello</div>;
       })} */}
       <div class="row">
-        <div class="col-7">Hello!</div>
+        <div class="col-7">Insert picture here</div>
         <div class="col-5">
-          <div class="row p-big">"Project Name"</div>
-          <div class="row p-small">Tools</div>
-          <div class="row p-med">Date</div>
+          <div class="row p-big">"TBOARD"</div>
+          <div class="row p-small offset-left">Arduino</div>
+          <div class="row p-med offset-left">$ OCT 2019 - DEC 2019</div>
           <div class="rectangle" />
-          <div class="row p-med whitespace">Size = Project size?</div>
-          <div class="row p-small whitespace">
-            <li>Projects Brief</li>
+          <div class="row p-med whitespace offset-left">
+            Size:
+            <div class="square border border-dark">S</div>
+            <div class="square2 border border-dark">M</div>
+            <div class="square border border-dark">L</div>
+            <div class="square border border-dark">XL</div>
+          </div>
+          <div class="row p-small whitespace offset-left">
+            <li>An Arduino-powered electric skateboard. Whaaaa</li>
           </div>
           <button class="btn rect-button">
-            <div class="p-med text-center text-white">Learn More</div>
+            <div class="p-med text-center text-white offset-left">
+              Learn More
+            </div>
           </button>
-          <button class="btn p-small">GitHub Repo</button>
+          <button class="btn p-small offset-left">GitHub Repository</button>
         </div>
       </div>
     </div>
@@ -57,7 +65,7 @@ class Projects extends Component {
           {/* Projects Page */}
           <div id="projects-page">
             <div id="projects-title" class="projects-text-box">
-              <div class="row">
+              <div class="row whitespace">
                 <div class="col-12 text-left">"PROJECTS"</div>
               </div>
             </div>
