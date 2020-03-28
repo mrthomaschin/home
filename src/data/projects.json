@@ -2,20 +2,33 @@
   "Projects": [
     {
       "title": "TBOARD",
-      "date": "OCT 2019",
-      "descriptionbrief": "An Arduino-powered electric skateboard. Whaaaa",
-      "descriptionmain": "lol",
-      "tools": "Arduino, Embedded-Systems"
+      "date": "OCT 2019 - DEC 2019",
+      "descriptionbrief": "An Arduino-powered electric skateboard controlled by a Wii Nunchuk.",
+      "descriptionmain1": "As a UCR student living off-campus, I believe that a suitable method of transportation is essential. uring previous years, I have commuted to campus using various forms of transportation including bikes, skateboards, public buses, and by car, and all seem to have a downside to them. Recently, the use of rental electric vehicles have grown substantially and have impacted the way people commute. An electric skateboard would be an efficient and easy way for a student to get to campus. It maintains the size of a regular skateboard, eliminates the use for a bike lock, decreases the time it takes to get to campus, and saves the user money from gas and parking expenses.",
+      "descriptionmain2": "The Tboard is an Arduino-powered electric skateboard. An Arduino is connected to the skateboard's speed controller via UART. An Arduino is connected to the skateboard's speed controller via UART. It has built-in headlights and tail lights, as well as two sensors on top of the longboard deck to detect foot placement. A built-in speaker plays specific tones upon startup and foot-sensor detection for an enjoyable user experience. A power switch and battery level indicator are built into the electronics housing. It is also controlled with a wireless Wii Nunchuk. The Tboard boasts a speed of over 20+ mph with a battery life that lasts 10-12 miles on a single charge. And in summary, the cost of this project came down to 1/5th the price of the standard Boosted Board. And most of all, it's fun!",
+      "tools": "C++, Arduino, UART, Embedded Systems",
+      "projectsize": "medium",
+      "github": "https://github.com/mrthomaschin/Tboard"
     },
     {
-      "title": "Food",
-      "date": "OCT 2019",
-      "description": "I'm hungry"
+      "title": "HOMEPAGE",
+      "date": "MAR 2020 - PRESENT",
+      "descriptionbrief": "What you're looking at right now: my personal website!",
+      "descriptionmain1": "I'm proud to say that I have built my own personal website from scratch. Websites are great ways to only display personal projects, but also hobbies and interests so you can get to learn a little more about me.",
+      "descriptionmain2": "I constructed this website using React.js and modifying it to deploy through Github Pages. React is a powerful tool for creating clean and organized UI. I chose 'Off-White', Virgil Abloh's signature designer brand, as my main theme. I personally have never taken classes on these languages/tools, so this website has been a fruitful learning experiences for me!",
+      "tools": "HTML, CSS, Javascript, React.js, Bootstrap",
+      "projectsize": "medium",
+      "github": "https://github.com/mrthomaschin/homepage"
     },
     {
-      "title": "Test",
+      "title": "Test3",
       "date": "DEC 2019",
-      "description": "I'm gry"
+      "descriptionbrief": "A3",
+      "descriptionmain1": "3l",
+      "descriptionmain2": "lo3l",
+      "tools": "Arduino, Embedd3ems",
+      "projectsize": "medium",
+      "github": "https://github.com/mrthomaschin/"
     }
   ]
 }

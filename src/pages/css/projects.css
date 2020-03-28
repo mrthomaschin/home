@@ -4,7 +4,8 @@
 }
 
 #projects-page {
-  height: 1000px;
+  /* height: 1000px; */
+  height: 2200px;
 }
 
 #projects-title {
@@ -13,13 +14,23 @@
   padding-top: 40px;
 }
 
+.Modal-Font {
+  font-family: "helvetica-neue-bold";
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+}
+
 .projects-text-box {
   margin: auto;
   width: 1200px;
   font-family: "helvetica-neue-bold";
 }
 
-.rectangle {
+.rectangle-projects {
   height: 5px;
   width: 500px;
   background-color: #000000;
@@ -35,6 +46,18 @@
   margin-bottom: 10px;
   margin-left: 20px;
   line-height: 75px;
+  border-radius: 0 !important;
+}
+
+.rect-modal-button {
+  height: 40px;
+  width: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  font-family: "helvetica-neue-bold";
+  border-radius: 0 !important;
 }
 
 .square {
@@ -71,11 +94,19 @@
 }
 
 .p-small {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.whitespace-small {
+  margin-bottom: 10px;
 }
 
 .whitespace {
   margin-bottom: 40px;
+}
+
+.whitespace-big {
+  margin-bottom: 180px;
 }
 
 .offset-left {
