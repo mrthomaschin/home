@@ -3,9 +3,49 @@
   src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
+#about-page {
+  height: 1200px;
+}
+
+#about-title {
+  font-family: "helvetica-neue-bold";
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+#about-main {
+  font-family: "helvetica-neue-bold";
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.about-text-box {
+  margin: auto;
+  width: 1000px;
+}
 .row {
   margin-right: 20px;
   margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.rectangle {
+  height: 10px;
+  width: 500px;
+  background-color: #000000;
+  margin-left: -0px;
+}
+
+.row-space {
+  margin-bottom: 50px;
+}
+
+.col-space {
+  margin-left: 20px;
+}
+
+.ow-stripes {
+  max-width: 500px;
+  object-fit: contain;
 }

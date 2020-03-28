@@ -3,13 +3,13 @@ import img1 from "../Images/test-pic-lol.jpg";
 import img2 from "../Images/thomas-chin-engineer.png";
 import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
-import ProjBrief from "../data/projects-brief.json";
+import Proj from "../data/projects.json";
 import "./css/home.css";
 
 function AddProject() {
   return (
     <div class="text-box-projects">
-      {ProjBrief.Projects.map((project, x) => {
+      {Proj.Projects.map(project => {
         return (
           <div>
             <div class="row project-brief-header">
@@ -22,11 +22,12 @@ function AddProject() {
             </div>
             <div class="row">
               <div class="col-8 text-left">
-                <div> {project.description}</div>
+                <div> {project.descriptionbrief}</div>
                 <div class="project-image"></div>
               </div>
             </div>
-            <div class="whitespace"></div>
+            <div class="rectangle" />
+            <div class="whitespace" />
           </div>
         );
       })}
@@ -82,12 +83,14 @@ class Home extends Component {
             <div class="row">
               <div class="col-12 text-center">
                 <div class="section-title">"HI, I'M THOMAS."</div>
-                <p2>
-                  4th-year studying Computer Engineering at the University of
-                  California, Riverside. Fascinated in all things technology.
-                  Deeply passionate about creating others that will have a
-                  positive impact on the world and benefit others!
-                </p2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="text-box-about">
+                4th-year studying Computer Engineering at the University of
+                California, Riverside. Fascinated in all things technology.
+                Deeply passionate about creating others that will have a
+                positive impact on the world and benefit others!
               </div>
             </div>
           </div>

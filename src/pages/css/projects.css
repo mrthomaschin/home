@@ -3,6 +3,61 @@
   src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
 }
 
+#projects-page {
+  height: 1000px;
+}
+
+#projects-title {
+  font-family: "helvetica-neue-bold";
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.projects-text-box {
+  margin: auto;
+  width: 1200px;
+  font-family: "helvetica-neue-bold";
+}
+
+.rectangle {
+  height: 5px;
+  width: 500px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.rect-button {
+  height: 75px;
+  width: 350px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  line-height: 75px;
+}
+
+.p-big {
+  font-size: 40px;
+}
+
+.p-med {
+  font-size: 30px;
+}
+
+.p-small {
+  font-size: 20px;
+}
+
+.whitespace {
+  margin-bottom: 40px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
 .row {
   margin-right: 20px;
   margin-left: 20px;
