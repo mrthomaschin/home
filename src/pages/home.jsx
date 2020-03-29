@@ -70,7 +70,7 @@ class Home extends Component {
               <div id="main-title">
                 <img
                   class="img-responsive center-block profile-pic-1"
-                  src={require("../Images/test-pic-lol.jpg")}
+                  src={require("../Images/lol3.png")}
                   alt="test-pic"
                 />
                 <img

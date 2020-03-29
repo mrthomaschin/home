@@ -80,7 +80,13 @@ class About extends Component {
                 </div>
                 <div class="col-5">
                   <div class="col-space">
-                    <div class="row">Insert picture here</div>
+                    <div class="row">
+                      <img
+                        class="ow-stripes"
+                        src={require("../Images/lol2.png")}
+                        alt="owstripes"
+                      />
+                    </div>
                     <div class="row">
                       <img
                         class="ow-stripes"
