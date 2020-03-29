@@ -49,11 +49,11 @@ class NavBar extends Component {
                     Photography
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link class="nav-link" to="/music">
                     Music
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link class="nav-link" to="/repairs">
                     Repairs
