@@ -4,7 +4,22 @@ import Social from "../components/sm_bar.jsx";
 import { Slide } from "react-slideshow-image";
 import "./css/photos.css";
 
-const slideImages = ["/tboard.jpeg", "/tboard.jpeg", "/tboard.jpeg"];
+const slideImages1 = [
+  "/dana1.jpg",
+  "/allison1.jpg",
+  "/life1.jpg",
+  "/ty1.jpg",
+  "/stacy1.jpg",
+  "/dana2.jpg"
+];
+const slideImages2 = [
+  "/wu1.jpg",
+  "/daniel1.jpg",
+  "/kate1.jpg",
+  "/fam2.jpg",
+  "/wu2.jpg",
+  "/fam2.jpg"
+];
 
 const properties = {
   duration: 5000,
@@ -43,7 +58,7 @@ class Photography extends Component {
           <NavBar />
           {/* Main Page */}
           <div id="main-page-photo">
-            <div class="text-box">
+            <div class="text-box-main">
               <div class="row justify-content-center">
                 <div class="text">Thomas Chin</div>
               </div>
@@ -56,8 +71,47 @@ class Photography extends Component {
           <div id="short-page">
             <div class="text-box">
               <div class="row">
-                <div class="col-8">I have been doing photography.</div>
-                <div class="col-4">**Insert photo here**</div>
+                <div class="col-8 text-body ">
+                  <div class="row">
+                    <p>
+                      Photography has been one of my enjoyments in the past few
+                      years. I believe that the most beautiful and important
+                      moments in life should be captured. I began with
+                      spontaneous photoshoots with friends during college, and
+                      still always enjoy sessions for fun. Recently, I've been
+                      honored to start working with graduation portraits and
+                      family photos as well!
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p>
+                      One of the aspects of photography is working quickly and
+                      in the moment. Situations including change in scenery can
+                      affect a photo. As the photographer, I enjoy manually
+                      adjusting my camera and using the right tools to capture
+                      the perfect image. Combining the technical aspects from
+                      the camera to the computer pushes me to explore different
+                      tecniques to produce a better result.
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p>
+                      The most real photos come from genuine feelings. Even as a
+                      photographer I enjoy the vibe of a shoot and it drives me
+                      to play my part. When I shoot, I let people enjoy
+                      themselves however they please because it is their moment,
+                      not mine.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-4 text-body ">
+                  {" "}
+                  <img
+                    class="photos-profile-img"
+                    src={require("../Images/photography/lol.jpg")}
+                    alt="pic"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -73,8 +127,9 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[0])}
                       alt="pic"
                     />
                   </div>
@@ -82,8 +137,9 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[1])}
                       alt="pic"
                     />
                   </div>
@@ -91,8 +147,39 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[2])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[3])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[4])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[5])}
                       alt="pic"
                     />
                   </div>
@@ -109,8 +196,9 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[0])}
                       alt="pic"
                     />
                   </div>
@@ -118,8 +206,9 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[1])}
                       alt="pic"
                     />
                   </div>
@@ -127,8 +216,39 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="proj-img"
-                      src={require("../Images" + slideImages[1])}
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[2])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[3])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[4])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img"
+                      src={require("../Images/photography/fam" +
+                        slideImages2[5])}
                       alt="pic"
                     />
                   </div>
