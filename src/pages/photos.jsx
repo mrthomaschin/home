@@ -1,13 +1,28 @@
 import React, { Component } from "react";
 import NavBar from "../components/navbar.jsx";
 import Social from "../components/sm_bar.jsx";
+import { Slide } from "react-slideshow-image";
 import "./css/photos.css";
+
+const slideImages = ["/tboard.jpeg", "/tboard.jpeg", "/tboard.jpeg"];
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+  pauseOnHover: true,
+  onChange: (oldIndex, newIndex) => {
+    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+  }
+};
 
 class Photography extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div class="photos-page">
         <head>
           <link
             rel="stylesheet"
@@ -47,14 +62,78 @@ class Photography extends Component {
             </div>
           </div>
           {/* Photos */}
-          <div id="photos-page">
+          <div class="slides">
             <div class="text-box">
-              <div class="row justify-content-center">Graduation Photos</div>
+              <div class="row justify-content-center header-text">
+                Graduation
+              </div>
+            </div>
+            <div className="slide-container">
+              <Slide {...properties}>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+              </Slide>
             </div>
           </div>
-          <div id="photos-page">
+          <div class="slides">
             <div class="text-box">
-              <div class="row justify-content-center">Families</div>
+              <div class="row justify-content-center header-text">Family</div>
+            </div>
+            <div className="slide-container">
+              <Slide {...properties}>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="proj-img"
+                      src={require("../Images" + slideImages[1])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+              </Slide>
             </div>
           </div>
           {/* Social Media Bar */}

@@ -30,7 +30,7 @@ class Repairs extends Component {
           <div class="background1">
             <div id="main-text-repairs">
               <div id="first-page" class="text-box">
-                <div class="row">
+                <div class="row first-page-space">
                   <div class="col-8">
                     i believe that anyone can fix anything.
                   </div>

@@ -104,7 +104,9 @@ class Projects extends Component {
             <div id="projects-main" class="projects-text-box">
               {json.Projects.map((project, index) => (
                 <div>
-                  <div class="projects-text-box" id={project.section}>
+                  <div class="rectangle-large" id={project.section} />
+                  <div class="whitespace" />
+                  <div class="projects-text-box">
                     <div class="row">
                       <div class="col-7">
                         <img
@@ -145,12 +147,12 @@ class Projects extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Github Repository
+                            Github Repository/Website
                           </a>
                         </button>
                       </div>
                     </div>
-                    <div class="whitespace-big" />
+                    <div class="whitespace" />
                   </div>
                   {/* Modal template */}
                   <Modal

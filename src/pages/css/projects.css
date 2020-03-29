@@ -5,12 +5,12 @@
 
 #projects-page {
   /* height: 1000px; */
-  height: 2200px;
+  height: 100%;
 }
 
 #projects-title {
   font-family: "helvetica-neue-bold";
-  font-size: 45px;
+  font-size: 50px;
   padding-top: 40px;
 }
 
@@ -47,6 +47,13 @@ p {
   margin-left: 20px;
   line-height: 75px;
   border-radius: 0 !important;
+}
+
+.rectangle-large {
+  height: 10px;
+  width: 1000px;
+  background-color: #000000;
+  margin-left: -0px;
 }
 
 .rect-modal-button {
@@ -102,7 +109,7 @@ p {
 }
 
 .whitespace {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .whitespace-big {
@@ -119,6 +126,7 @@ p {
 
 .proj-img {
   max-width: 650px;
+  padding-top: 40px;
 }
 
 .row {

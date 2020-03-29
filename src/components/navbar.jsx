@@ -50,7 +50,7 @@ class NavBar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/">
+                  <Link class="nav-link" to="/music">
                     Music
                   </Link>
                 </li>
@@ -60,7 +60,7 @@ class NavBar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/">
+                  <Link class="nav-link" to="/resume">
                     Resumé
                   </Link>
                 </li>

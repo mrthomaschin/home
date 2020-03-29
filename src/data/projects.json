@@ -21,20 +21,32 @@
       "tools": "HTML, CSS, Javascript, React.js, Bootstrap",
       "projectsize": "large",
       "github": "https://github.com/mrthomaschin/homepage",
-      "imgURL": "/tboard.jpeg",
+      "imgURL": "/macbook-updated.png",
       "section": "section-2"
     },
     {
-      "title": "Test3",
-      "date": "DEC 2019",
-      "descriptionbrief": "A3",
-      "descriptionmain1": "3l",
-      "descriptionmain2": "lo3l",
-      "tools": "Arduino, Embedd3ems",
+      "title": "MINDTAPP",
+      "date": "MAY 2019 - JAN 2020",
+      "descriptionbrief": "Survey website for UC Riverside's Leadership and Group Dynamics psychology research lab.",
+      "descriptionmain1": "I was one of a team of four to develop and maintain the website for the Leadership and Group Dynamics Lab in UCR's psychology research department, lead by Dr. Thomas Sy. The website contains all information about the research program, as well as all the surveys required for the study.",
+      "descriptionmain2": "The website is built using the ASP .NET Core framework and structured in a Model-View-Controller pattern. I currently am one of the two members on the back-end team, sending data to and from our Firebase database through Cloud Firestore.",
+      "tools": "HTML, CSS, Javascript, .NET Core MVC, Cloud Firestore",
       "projectsize": "medium",
-      "github": "https://github.com/mrthomaschin/",
-      "imgURL": "/tboard.jpeg",
+      "github": "https://mindtapp.com/#about",
+      "imgURL": "/mindtapp.png",
       "section": "section-3"
+    },
+    {
+      "title": "BIOHACK",
+      "date": "JAN 2019 - MAY 2019",
+      "descriptionbrief": "Official website for UC Riverside's Biohack Hackathon.",
+      "descriptionmain1": "I was one of the website developers for UC Riverside's BioHack hackathon. This website consisted of all the information about BioHack as well as a countdown to the hackathon and a live website during the event with constant updates through social media.",
+      "descriptionmain2": "I contributed by adding new sponsors to the page and update the website with any announcements. I also helped create the live website by implementing the Instagram UI into the website for live updates.",
+      "tools": "HTML, CSS, Javascript, Bootstrap",
+      "projectsize": "medium",
+      "github": "https://github.com/mrthomaschin/BioHack_2019",
+      "imgURL": "/biohack.png",
+      "section": "section-4"
     }
   ]
 }

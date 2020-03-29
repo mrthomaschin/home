@@ -4,15 +4,40 @@
 }
 
 #main-page-photo {
-  height: 600px;
+  height: 100%;
 }
 
 #short-page {
   height: 600px;
 }
 
-#photos-page {
-  height: 600px;
+.slides {
+  height: 100%;
+  background-color: #e1e1e1;
+  padding-bottom: 50px;
+}
+
+.photos-page {
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: auto;
+}
+
+.header-text {
+  font-family: "sf-pro";
+  font-size: 50px;
 }
 
 #main-text {
@@ -29,7 +54,7 @@
 
 .text-box {
   margin: auto;
-  padding-top: 160px;
+  padding-top: 40px;
   width: 1000px;
 }
 
@@ -38,4 +63,11 @@
   margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.rectangle-thin {
+  height: 5px;
+  width: 1000px;
+  background-color: #000000;
+  margin-left: -0px;
 }
