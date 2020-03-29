@@ -8,6 +8,14 @@
   src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
 }
 
+a {
+  background-color: #000000;
+  font-family: "sf-pro";
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+
 nav {
   background-color: #000000;
   font-family: "sf-pro";

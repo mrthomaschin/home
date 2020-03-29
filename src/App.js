@@ -9,7 +9,6 @@ import ProjectsPage from "./pages/projects.jsx";
 import RepairsPage from "./pages/repairs.jsx";
 import PhotosPage from "./pages/photos.jsx";
 import MusicPage from "./pages/music.jsx";
-import ResumePage from "./pages/resume.jsx";
 
 class App extends Component {
   render() {
@@ -21,7 +20,6 @@ class App extends Component {
         <Route path="/repairs" component={RepairsPage} />
         <Route path="/photography" component={PhotosPage} />
         <Route path="/music" component={MusicPage} />
-        <Route path="/resume" component={ResumePage} />
       </Switch>
     );
   }
