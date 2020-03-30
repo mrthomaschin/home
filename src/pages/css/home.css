@@ -91,3 +91,8 @@
 .whitespace {
   margin-bottom: 100px;
 }
+
+.nav-link {
+  font-family: "helvetica-neue-bold";
+  font-size: 20px;
+}
