@@ -62,7 +62,7 @@ class NavBar extends Component {
                 <li>
                   <a
                     class="nav-link"
-                    href="../data/Thomas_Chin_Resume_Print.pdf"
+                    href="Thomas_Chin_Resume_Print.pdf"
                     download
                   >
                     Resumé
