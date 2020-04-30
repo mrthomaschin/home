@@ -4,22 +4,32 @@
 }
 
 @font-face {
+  font-family: "circlular-std-book";
+  src: url("../../fonts/CircularStd-Book.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "sf-pro";
   src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
 }
 
-a {
-  background-color: #000000;
-  font-family: "sf-pro";
-  font-weight: bold;
-  font-style: normal;
-  color: white;
-}
-
 nav {
   background-color: #000000;
-  font-family: "sf-pro";
+  font-family: "circlular-std-book" !important;
+  font-style: normal;
+  color: white !important;
+}
+
+/* a {
+  font-family: "circlular-std-book" !important;
   font-weight: bold;
   font-style: normal;
-  color: white;
+  color: #e8e8e8 !important;
 }
+
+a:hover {
+  font-family: "circlular-std-book" !important;
+  font-weight: bold;
+  font-style: normal;
+  color: #aeaeae !important;
+} */

@@ -3,6 +3,11 @@
   src: url("../../fonts/CircularStd-Bold.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "circular-std-med";
+  src: url("../../fonts/CircularStd-Medium.ttf") format("truetype");
+}
+
 .background1 {
   background-color: #181830;
 }
@@ -17,7 +22,7 @@
 #main-text-repairs {
   font-size: 75px;
   color: #ffffff;
-  font-family: "circular-stf";
+  font-family: "circular-std-med";
 }
 
 #first-page {
@@ -48,7 +53,7 @@
 .text-repairs {
   font-size: 30px;
   color: #ffffff;
-  font-family: "circular-stf";
+  font-family: "circular-std-med";
 }
 
 .text-box {

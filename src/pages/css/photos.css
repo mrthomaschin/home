@@ -3,6 +3,11 @@
   src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "circlular-std-book";
+  src: url("../../fonts/CircularStd-Book.ttf") format("truetype");
+}
+
 #main-page-photo {
   height: 600px;
   background-image: url("../../Images/photography/20190908-DSC_0044.jpg");

@@ -8,12 +8,11 @@ class NavBar extends Component {
     return (
       <div>
         <head>
-          <link rel="stylesheet" type="text/css" href="index.css" />
           <link
-            rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
+            rel="stylesheet"
           />
           <meta property="og:title" content="Nav Bar" />
           <meta property="og:site_name" content="Personal Website" />
@@ -28,11 +27,13 @@ class NavBar extends Component {
         <body>
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="collapse navbar-collapse" id="nav-items">
-              <ul class="navbar-nav mr-auto">
-                <Link class="nav-brand" to="/">
-                  Home
-                </Link>
-              </ul>
+              <div class="navbar-link-style">
+                <ul class="navbar-nav mr-auto">
+                  <Link class="nav-link" to="/">
+                    Home
+                  </Link>
+                </ul>
+              </div>
               <ul class="navbar-nav ml-auto">
                 <li>
                   <Link class="nav-link" to="/about">

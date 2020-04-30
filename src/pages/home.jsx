@@ -8,7 +8,7 @@ import "./css/home.css";
 function AddProject() {
   return (
     <div class="text-box-projects">
-      {Proj.Projects.map(project => {
+      {Proj.Projects.map((project) => {
         return (
           <div>
             <div class="row project-brief-header">
@@ -44,7 +44,6 @@ class Home extends Component {
     return (
       <div>
         <head>
-          <link rel="stylesheet" type="text/css" href="index.css" />
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -114,8 +113,11 @@ class Home extends Component {
               <div class="col-12 text-center">
                 <div class="section-title">"CONTACT"</div>
                 <p2>
-                  Questions? Shoot me an
-                  <a href="mailto: thomasc246@gmail.com"> email</a>!
+                  Questions? Shoot me an&nbsp;
+                  <a id="email-link" href="mailto: thomasc246@gmail.com">
+                    email
+                  </a>
+                  !
                 </p2>
               </div>
             </div>
