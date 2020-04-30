@@ -103,16 +103,14 @@
   font-size: 20px;
 }
 
-/* a {
-  font-family: "circlular-std-book" !important;
-  font-weight: bold;
+a {
+  font-family: "helvetica-neue-bold" !important;
   font-style: normal;
-  color: #e8e8e8 !important;
+  color: #000000 !important;
 }
 
 a:hover {
-  font-family: "circlular-std-book" !important;
-  font-weight: bold;
+  font-family: "helvetica-neue-bold" !important;
   font-style: normal;
   color: #aeaeae !important;
-} */
+}
