@@ -60,11 +60,7 @@ class NavBar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    class="nav-link"
-                    href="Thomas_Chin_Resume_Print.pdf"
-                    download
-                  >
+                  <a class="nav-link" href="Thomas_Chin_Resume.pdf" download>
                     Resumé
                   </a>
                 </li>
