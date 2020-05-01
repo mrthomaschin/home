@@ -29,39 +29,43 @@ class NavBar extends Component {
             <div class="collapse navbar-collapse" id="nav-items">
               <div class="navbar-link-style">
                 <ul class="navbar-nav mr-auto">
-                  <Link class="nav-link" to="/">
+                  <Link class="nav-link navbar-link" to="/">
                     Home
                   </Link>
                 </ul>
               </div>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <Link class="nav-link" to="/about">
+                  <Link class="nav-link navbar-link" to="/about">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/projects">
+                  <Link class="nav-link navbar-link" to="/projects">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/photography">
+                  <Link class="nav-link navbar-link" to="/photography">
                     Photography
                   </Link>
                 </li>
                 {/* <li>
-                  <Link class="nav-link" to="/music">
+                  <Link class="nav-link navbar-link" to="/music">
                     Music
                   </Link>
                 </li> */}
                 <li>
-                  <Link class="nav-link" to="/repairs">
+                  <Link class="nav-link navbar-link" to="/repairs">
                     Repairs
                   </Link>
                 </li>
                 <li>
-                  <a class="nav-link" href="Thomas_Chin_Resume.pdf" download>
+                  <a
+                    class="nav-link navbar-link"
+                    href="Thomas_Chin_Resume.pdf"
+                    download
+                  >
                     Resumé
                   </a>
                 </li>

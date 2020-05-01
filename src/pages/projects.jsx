@@ -135,7 +135,7 @@ class Projects extends Component {
                         </div>
                         <button
                           class="btn rect-button"
-                          onClick={e => this.showModal(e, index)}
+                          onClick={(e) => this.showModal(e, index)}
                         >
                           <div class="p-med text-center text-white offset-left">
                             Learn More
@@ -143,6 +143,7 @@ class Projects extends Component {
                         </button>
                         <button class="btn p-small offset-left">
                           <a
+                            class="default-link"
                             href={project.github}
                             target="_blank"
                             rel="noopener noreferrer"

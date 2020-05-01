@@ -135,3 +135,15 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+
+.default-link {
+  font-family: "helvetica-neue-bold" !important;
+  font-style: normal;
+  color: #000000 !important;
+}
+
+.default-link:hover {
+  font-family: "helvetica-neue-bold" !important;
+  font-style: normal;
+  color: #aeaeae !important;
+}

@@ -103,13 +103,13 @@
   font-size: 20px;
 }
 
-a {
+.default-link {
   font-family: "helvetica-neue-bold" !important;
   font-style: normal;
   color: #000000 !important;
 }
 
-a:hover {
+.default-link:hover {
   font-family: "helvetica-neue-bold" !important;
   font-style: normal;
   color: #aeaeae !important;

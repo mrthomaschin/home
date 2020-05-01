@@ -24,8 +24,11 @@ function AddProject() {
                 <div> {project.descriptionbrief}</div>
               </div>
               <div class="col-4 text-right">
-                <HashLink class="nav-link" to={"/projects#" + project.section}>
-                  Project Page
+                <HashLink
+                  class="nav-link default-link"
+                  to={"/projects#" + project.section}
+                >
+                  PROJECT PAGE
                 </HashLink>
               </div>
             </div>
