@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../components/navbar.jsx";
+import NavBar from "../components/navbar_dark.jsx";
 import Social from "../components/sm_bar.jsx";
 import json from "../data/projects.json";
 import { Modal } from "react-bootstrap";

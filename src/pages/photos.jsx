@@ -10,7 +10,7 @@ const slideImages1 = [
   "/life1.jpg",
   "/ty1.jpg",
   "/stacy1.jpg",
-  "/dana2.jpg"
+  "/dana2.jpg",
 ];
 const slideImages2 = [
   "/wu1.jpg",
@@ -18,7 +18,7 @@ const slideImages2 = [
   "/kate1.jpg",
   "/fam2.jpg",
   "/wu2.jpg",
-  "/fam2.jpg"
+  "/fam2.jpg",
 ];
 
 const properties = {
@@ -30,7 +30,7 @@ const properties = {
   pauseOnHover: true,
   onChange: (oldIndex, newIndex) => {
     console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
+  },
 };
 
 class Photography extends Component {
@@ -69,9 +69,9 @@ class Photography extends Component {
           </div>
           {/* Short bio */}
           <div id="short-page">
-            <div class="text-box">
+            <div class="container">
               <div class="row">
-                <div class="col-8 text-body ">
+                <div class="col-7 text-body">
                   <div class="row">
                     <p>
                       Photography has been one of my enjoyments in the past few
@@ -104,7 +104,7 @@ class Photography extends Component {
                     </p>
                   </div>
                 </div>
-                <div class="col-4 text-body ">
+                <div class="col-5 text-body ">
                   {" "}
                   <img
                     class="photos-profile-img"

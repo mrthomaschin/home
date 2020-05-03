@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import icon1 from "../Images/Icons/010-linkedin.svg";
-import icon2 from "../Images/Icons/github.svg";
-import icon3 from "../Images/Icons/011-instagram.svg";
 import "./css/sm_bar.css";
 
 class SocialMedia extends Component {
@@ -26,32 +23,77 @@ class SocialMedia extends Component {
         </head>
         <body>
           <div id="handles" align="center">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <a
-                  class="social"
-                  href="https://www.linkedin.com/in/mrthomaschin/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={icon1} width="40px" alt="linkedin" />
-                </a>
-                <a
-                  class="social"
-                  href="https://github.com/mrthomaschin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={icon2} width="40px" alt="github" />
-                </a>
-                <a
-                  class="social"
-                  href="https://www.instagram.com/chinsanity_/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={icon3} width="40px" alt="instagram" />
-                </a>
+            <div class="container">
+              <div class="row justify-content-center icon-center">
+                <div class="social-media-bar">
+                  <div class="row justify-content-center">
+                    <div class="col-md-2">
+                      <a id="email-link" href="mailto: thomasc246@gmail.com">
+                        <img
+                          src={require("../Images/Icons/social/mail.png")}
+                          width="45px"
+                          alt="instagram"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a
+                        class="social"
+                        href="https://www.linkedin.com/in/mrthomaschin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require("../Images/Icons/social/linkedin.png")}
+                          width="45px"
+                          alt="linkedin"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a
+                        class="social"
+                        href="https://github.com/mrthomaschin"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require("../Images/Icons/social/github.png")}
+                          width="45 px"
+                          alt="github"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a
+                        class="social"
+                        href="https://www.instagram.com/chinsanity_/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require("../Images/Icons/social/instagram.png")}
+                          width="45px"
+                          alt="instagram"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-md-2">
+                      <a
+                        class="social"
+                        href="https://www.facebook.com/mr.thomaschin"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src={require("../Images/Icons/social/facebook.png")}
+                          width="45px"
+                          alt="instagram"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

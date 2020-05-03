@@ -1,16 +1,19 @@
 #handles {
   text-align: center;
   height: 70px;
-  background-color: #cdcdcd;
-}
-.social {
-  font-size: 40px;
-  padding: 5px;
+  background-color: #76b4bd;
 }
 
-.row {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
+.social-media-bar {
+  width: 40%;
+  padding: 1% 0;
+}
+
+.icon-center {
+  vertical-align: middle;
+}
+
+.handle-icon {
+  width: 3%;
+  padding-top: 3%;
 }

@@ -9,14 +9,9 @@
 }
 
 #main-page-photo {
-  height: 600px;
   background-image: url("../../Images/photography/20190908-DSC_0044.jpg");
-  background-size: 1500px;
+  background-size: 100%;
   background-position-y: -200px;
-}
-
-#short-page {
-  height: 100%;
 }
 
 .slides {
@@ -62,6 +57,9 @@
 
 .text-body {
   font-family: "sf-pro";
+  margin-top: 5%;
+  margin-bottom: 5%;
+
   font-size: 20px;
   color: #000000;
 }
@@ -76,7 +74,8 @@
 .text-box-main {
   margin: auto;
   padding-top: 15%;
-  width: 1000px;
+  padding-bottom: 10%;
+  width: 100%;
   height: 100%;
 }
 
@@ -100,5 +99,5 @@
 }
 
 .photos-profile-img {
-  max-width: 400px;
+  width: 100%;
 }

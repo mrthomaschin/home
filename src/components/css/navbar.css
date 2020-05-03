@@ -9,25 +9,50 @@
 }
 
 @font-face {
+  font-family: "circlular-std-bold";
+  src: url("../../fonts/CircularStd-Bold.otf") format("opentype");
+}
+
+@font-face {
   font-family: "sf-pro";
   src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
 }
 
 nav {
-  background-color: #000000;
-  font-family: "circlular-std-book" !important;
-  font-style: normal;
-  color: white !important;
+  background-color: #ebf4f6;
 }
 
 .navbar-link {
   font-family: "circlular-std-book" !important;
   font-style: normal;
-  color: #e8e8e8 !important;
+  font-size: 20px;
+  color: #58668b !important;
 }
 
 .navbar-link:hover {
   font-family: "circlular-std-book" !important;
   font-style: normal;
-  color: #aeaeae !important;
+  font-size: 20px;
+  color: #58668b !important;
+}
+
+#logo {
+  position: absolute;
+  left: 2.99%;
+  right: 93.75%;
+  top: 17.14%;
+  bottom: 17.14%;
+
+  border: 4px solid #58668b;
+  box-sizing: border-box;
+
+  font-family: "circlular-std-bold" !important;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 51px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #58668b;
 }

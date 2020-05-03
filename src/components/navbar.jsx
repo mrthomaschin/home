@@ -30,7 +30,7 @@ class NavBar extends Component {
               <div class="navbar-link-style">
                 <ul class="navbar-nav mr-auto">
                   <Link class="nav-link navbar-link" to="/">
-                    Home
+                    t
                   </Link>
                 </ul>
               </div>

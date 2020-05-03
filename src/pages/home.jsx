@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashLink } from "react-router-hash-link";
-import Social from "../components/sm_bar.jsx";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
 import "./css/home.css";
@@ -10,30 +9,27 @@ function AddProject() {
     <div class="text-box-projects">
       {Proj.Projects.map((project) => {
         return (
-          <div>
-            <div class="row project-brief-header">
-              <div class="col-4 text-left">
-                <div class="project-title">"{project.title}"</div>
-              </div>
-              <div class="col-8 text-right">
-                <div class="project-date">&copy; {project.date}</div>
+          <div class="project-brief-section">
+            <div class="project-brief-box">
+              <div class="container">
+                <div class="row">
+                  <div class="project-brief-title project-brief-text">
+                    {project.title}
+                  </div>
+                  <div class="project-brief-text project-brief-body">
+                    {project.descriptionbrief}
+                  </div>
+                  <div class="project-brief-text align-right">
+                    <HashLink
+                      class="nav-link project-link"
+                      to={"/projects#" + project.section}
+                    >
+                      Project Page
+                    </HashLink>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-8 text-left">
-                <div> {project.descriptionbrief}</div>
-              </div>
-              <div class="col-4 text-right">
-                <HashLink
-                  class="nav-link default-link"
-                  to={"/projects#" + project.section}
-                >
-                  PROJECT PAGE
-                </HashLink>
-              </div>
-            </div>
-            <div class="rectangle" />
-            <div class="whitespace" />
           </div>
         );
       })}
@@ -67,66 +63,305 @@ class Home extends Component {
           {/* NavBar */}
           <NavBar />
           {/* Main Section */}
-          <div class="main-page">
-            <div class="row justify-content-center">
-              <div id="main-title">
-                <img
-                  class="img-responsive center-block profile-pic-1"
-                  src={require("../Images/lol3.png")}
-                  alt="test-pic"
-                />
-                <img
-                  class="img-responsive center-block off-white-thomas"
-                  src={require("../Images/thomas-chin-engineer.png")}
-                  alt="off-white-text"
-                />
+          <div id="main-page">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <img
+                    class="profile-pic"
+                    src={require("../Images/me.png")}
+                    alt="Me"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="container">
+                    <div class="row">
+                      <div class="title-text-1">Hello! I'm Thomas.</div>
+                    </div>
+                    <div class="row">
+                      <div class="body-text-1">
+                        4th-year studying Computer Engineering at the University
+                        of California, Riverside. Fascinated in all things
+                        technology. Deeply passionate about creating others that
+                        will have a positive impact on the world and benefit
+                        others!
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="button-dark-blue">
+                          <div class="button-dark-blue-text">Learn More</div>
+                        </div>
+                        <div class="button-light-blue">
+                          <div class="button-light-blue-text">
+                            <a
+                              class="nav-link resume-link"
+                              href="Thomas_Chin_Resume.pdf"
+                              download
+                            >
+                              Resumé
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          {/* Short summary of self */}
-          <div id="about-brief">
-            <div class="row">
-              <div class="col-12 text-center">
-                <div class="section-title">"HI, I'M THOMAS."</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="text-box-about">
-                4th-year studying Computer Engineering at the University of
-                California, Riverside. Fascinated in all things technology.
-                Deeply passionate about creating others that will have a
-                positive impact on the world and benefit others!
+          {/* Skills set */}
+          <div id="skills-brief">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="title-text-2">My stack.</div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div id="skills-tools-box">
+                        <div class="row justify-content-center">
+                          <div class="title-text-3 ">Tools</div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="row ">
+                              <div class="body-text-1">React JS</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Bootstrap</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">ASP .NET Core</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">MVC</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Node JS</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">RESTful API</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Flask</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">MongoDB</div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="body-text-1">Firestore</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">JSON</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Embedded Systems</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Verilog</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">
+                                Arduino/Raspberry Pi
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Git</div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">
+                                Visual Studio / VS Code
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="body-text-1">Figma</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="container">
+                    <div id="skills-col-2" class="row justify-content-center">
+                      <div class="col-md-6">
+                        <div class="container">
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-c++-480.png")}
+                              alt="C++"
+                            />
+                            <div class="skills-icon-name">C++</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-java-480.png")}
+                              alt="Java"
+                            />
+                            <div class="skills-icon-name">Java</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-c-programming-480.png")}
+                              alt="C"
+                            />
+                            <div class="skills-icon-name">C</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-c-sharp-logo-480.png")}
+                              alt="C#"
+                            />
+                            <div class="skills-icon-name">C#</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="container">
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-html-5-480.png")}
+                              alt="HTML"
+                            />
+                            <div class="skills-icon-name">HTML</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-css3-480.png")}
+                              alt="CSS"
+                            />
+                            <div class="skills-icon-name">CSS</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-javascript-480.png")}
+                              alt="Javascript"
+                            />
+                            <div class="skills-icon-name">Javascript</div>
+                          </div>
+                          <div class="row skills-language-parent">
+                            <img
+                              class="skills-icon"
+                              src={require("../Images/Icons/skills/icons8-python-480.png")}
+                              alt="Python"
+                            />
+                            <div class="skills-icon-name">Python</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           {/* Short summary about projects */}
           <div id="projects-brief">
-            <div class="row">
-              <div class="col-12 text-center">
-                <div class="section-title">"PROJECTS"</div>
-                <div class="row">
-                  <AddProject />
-                </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="title-text-4">Projects</div>
+              </div>
+              <div class="row">
+                <AddProject />
               </div>
             </div>
           </div>
           {/* Contact Info */}
           <div id="contact-info">
             <div class="row">
-              <div class="col-12 text-center">
-                <div class="section-title">"CONTACT"</div>
-                <p2>
-                  Questions? Shoot me an&nbsp;
-                  <a id="email-link" href="mailto: thomasc246@gmail.com">
-                    email
-                  </a>
-                  !
-                </p2>
+              <div class="col text-center">
+                <div class="title-text-4-white">Wanna chat? Let's connect.</div>
+                <div class="container">
+                  <div class="row justify-content-center icon-center">
+                    <div id="contact-info-bar">
+                      <div class="row justify-content-center">
+                        <div class="col-md-2">
+                          <a
+                            id="email-link"
+                            href="mailto: thomasc246@gmail.com"
+                          >
+                            <img
+                              src={require("../Images/Icons/social/mail.png")}
+                              width="55px"
+                              alt="instagram"
+                            />
+                          </a>
+                        </div>
+                        <div class="col-md-2">
+                          <a
+                            class="social"
+                            href="https://www.linkedin.com/in/mrthomaschin/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={require("../Images/Icons/social/linkedin.png")}
+                              width="55px"
+                              alt="linkedin"
+                            />
+                          </a>
+                        </div>
+                        <div class="col-md-2">
+                          <a
+                            class="social"
+                            href="https://github.com/mrthomaschin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={require("../Images/Icons/social/github.png")}
+                              width="55 px"
+                              alt="github"
+                            />
+                          </a>
+                        </div>
+                        <div class="col-md-2">
+                          <a
+                            class="social"
+                            href="https://www.instagram.com/chinsanity_/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={require("../Images/Icons/social/instagram.png")}
+                              width="55px"
+                              alt="instagram"
+                            />
+                          </a>
+                        </div>
+                        <div class="col-md-2">
+                          <a
+                            class="social"
+                            href="https://www.facebook.com/mr.thomaschin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={require("../Images/Icons/social/facebook.png")}
+                              width="55px"
+                              alt="instagram"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          {/* Social Media Bar */}
-          <Social />
         </body>
       </div>
     );
