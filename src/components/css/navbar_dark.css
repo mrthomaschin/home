@@ -18,21 +18,25 @@
   src: url("../../fonts/SF-Pro-Text-Thin.otf") format("opentype");
 }
 
-nav {
-  background-color: #58668b;
-}
-
 .navbar-link {
   font-family: "circlular-std-book" !important;
   font-style: normal;
   font-size: 20px;
-  color: #ffffff !important;
 }
 
 .navbar-link:hover {
   font-family: "circlular-std-book" !important;
   font-style: normal;
   font-size: 20px;
+}
+
+.dark-mode-bg {
+  background-color: #58668b;
+}
+.dark-mode-navlink {
+  color: #ffffff !important;
+}
+.dark-mode-navlink:hover {
   color: #ebf4f6 !important;
 }
 

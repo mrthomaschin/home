@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "circlular-std-book";
+  font-family: "circular-std-book";
   src: url("../../fonts/CircularStd-Book.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   src: url("../../fonts/CircularStd-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "circlular-std-bold";
+  font-family: "circular-std-bold";
   src: url("../../fonts/CircularStd-Bold.otf") format("opentype");
 }
 
@@ -36,14 +36,14 @@
 }
 
 .title-text-1 {
-  font-family: "circlular-std-bold";
+  font-family: "circular-std-bold";
   font-size: 70px;
   color: #58668b;
   margin-left: 5%;
 }
 
 .body-text-1 {
-  font-family: "circlular-std-book";
+  font-family: "circular-std-book";
   font-size: 18px;
   color: #5e5656;
   margin-top: 2%;
@@ -66,7 +66,7 @@
 }
 
 .button-dark-blue-text {
-  font-family: "circlular-std-bold";
+  font-family: "circular-std-bold";
   font-size: 25px;
   color: #58668b;
   padding: 2% 0;
@@ -85,7 +85,7 @@
 }
 
 .button-light-blue-text {
-  font-family: "circlular-std-bold";
+  font-family: "circular-std-bold";
   font-size: 25px;
   color: #ffffff;
 }
@@ -99,7 +99,7 @@
 }
 
 .title-text-2 {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   font-size: 60px;
   color: #58668b;
   margin-left: 5%;
@@ -107,7 +107,7 @@
 }
 
 .title-text-3 {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   font-size: 30px;
   color: #58668b;
   margin-left: 5%;
@@ -115,13 +115,13 @@
 }
 
 .title-text-4 {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   font-size: 45px;
   color: #58668b;
 }
 
 .title-text-4-white {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   font-size: 45px;
   color: #ffffff;
 }
@@ -139,8 +139,8 @@
 }
 
 .skills-language-parent {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 #skills-col-2 {
@@ -153,10 +153,9 @@
 }
 
 .skills-icon-name {
-  font-family: "circlular-std-bold";
+  font-family: "circular-std-bold";
   font-size: 28px;
-  color: #5e5656;
-  padding-left: 3%;
+  padding: 7% 0;
 }
 
 #projects-brief {
@@ -198,14 +197,14 @@
 }
 
 .project-brief-text {
-  font-family: "circlular-std-book";
+  font-family: "circular-std-book";
   color: #ffffff;
 
   padding: 1% 0;
 }
 
 .project-brief-title {
-  font-family: "circlular-std-med";
+  font-family: "circular-std-med";
   width: 20%;
   font-size: 27px;
 }
@@ -222,13 +221,13 @@
 }
 
 .project-link {
-  font-family: "circlular-std-book" !important;
+  font-family: "circular-std-book" !important;
   font-size: 18px;
   color: #ffffff !important;
 }
 
 .project-link:hover {
-  font-family: "circlular-std-book" !important;
+  font-family: "circular-std-book" !important;
   font-style: normal;
   font-size: 18px;
   color: #bfcdd6 !important;

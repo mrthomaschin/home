@@ -25,28 +25,37 @@ class NavBar extends Component {
           />
         </head>
         <body>
-          <nav class="navbar navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark dark-mode-bg">
             <div class="collapse navbar-collapse" id="nav-items">
               <div class="navbar-link-style">
                 <ul class="navbar-nav mr-auto">
-                  <Link class="nav-link navbar-link" to="/">
+                  <Link class="nav-link navbar-link dark-mode-navlink" to="/">
                     t
                   </Link>
                 </ul>
               </div>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <Link class="nav-link navbar-link" to="/about">
+                  <Link
+                    class="nav-link navbar-link dark-mode-navlink"
+                    to="/about"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link navbar-link" to="/projects">
+                  <Link
+                    class="nav-link navbar-link dark-mode-navlink"
+                    to="/projects"
+                  >
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link navbar-link" to="/photography">
+                  <Link
+                    class="nav-link navbar-link dark-mode-navlink"
+                    to="/photography"
+                  >
                     Photography
                   </Link>
                 </li>
@@ -56,13 +65,16 @@ class NavBar extends Component {
                   </Link>
                 </li> */}
                 <li>
-                  <Link class="nav-link navbar-link" to="/repairs">
+                  <Link
+                    class="nav-link navbar-link dark-mode-navlink"
+                    to="/repairs"
+                  >
                     Repairs
                   </Link>
                 </li>
                 <li>
                   <a
-                    class="nav-link navbar-link"
+                    class="nav-link navbar-link dark-mode-navlink"
                     href="Thomas_Chin_Resume.pdf"
                     download
                   >

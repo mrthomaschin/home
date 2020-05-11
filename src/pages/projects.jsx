@@ -21,44 +21,76 @@ import "./css/projects.css";
 class Projects extends Component {
   state = {};
 
-  projectSizeSelect(projectsize) {
-    if (projectsize === "small") {
-      return (
-        <>
-          <div class="square2 border border-dark">S</div>
-          <div class="square border border-dark">M</div>
-          <div class="square border border-dark">L</div>
-          <div class="square border border-dark">XL</div>
-        </>
-      );
-    } else if (projectsize === "medium") {
-      return (
-        <>
-          <div class="square border border-dark">S</div>
-          <div class="square2 border border-dark">M</div>
-          <div class="square border border-dark">L</div>
-          <div class="square border border-dark">XL</div>
-        </>
-      );
-    } else if (projectsize === "large") {
-      return (
-        <>
-          <div class="square border border-dark">S</div>
-          <div class="square border border-dark">M</div>
-          <div class="square2 border border-dark">L</div>
-          <div class="square border border-dark">XL</div>
-        </>
-      );
-    } else {
-      return (
-        <>
-          <div class="square border border-dark">S</div>
-          <div class="square border border-dark">M</div>
-          <div class="square border border-dark">L</div>
-          <div class="square2 border border-dark">XL</div>
-        </>
-      );
+  projectSelect(element) {
+    var tools = [];
+    for (var x = 0; x < element.length; x++) {
+      if (element[x] === "c++") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-c++-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "c#") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-c-sharp-logo-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "arduino") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-arduino-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "bootstrap") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-bootstrap-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "html") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-html-5-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "css") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-css3-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "javascript") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-javascript-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "reactjs") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-react-480.png")}
+            alt="pic"
+          />
+        );
+      }
     }
+    return tools;
   }
 
   showModal = this.showModal.bind(this);
@@ -95,18 +127,17 @@ class Projects extends Component {
           <NavBar />
           {/* Projects Page */}
           <div id="projects-page">
-            <div id="projects-title" class="projects-text-box">
-              <div class="row whitespace">
-                <div class="col-12 text-left">"PROJECTS"</div>
+            <div id="projects-title">
+              <div class="row justify-content-center">
+                <div>Projects</div>
               </div>
             </div>
             {/* Main Page */}
-            <div id="projects-main" class="projects-text-box">
+            <div id="projects-main">
               {json.Projects.map((project, index) => (
                 <div>
-                  <div class="rectangle-large" id={project.section} />
-                  <div class="whitespace" />
-                  <div class="projects-text-box">
+                  <div id={project.section} />
+                  <div class="projects-box">
                     <div class="row">
                       <div class="col-7">
                         <img
@@ -115,42 +146,39 @@ class Projects extends Component {
                           alt="pic"
                         />
                       </div>
-                      <div class="col-5">
-                        <div class="row p-big whitespace-small">
-                          "{project.title}"
+                      <div class="col-5 project-content">
+                        <div class="row proj-title spacing-default justify-content-center">
+                          {project.title}
                         </div>
-                        <div class="row p-small offset-left whitespace-small">
-                          {project.tools}
+                        <div class="row proj-date spacing-default justify-content-center">
+                          {project.date}
                         </div>
-                        <div class="row p-med offset-left">
-                          $ {project.date}
+                        <div class="row spacing-default justify-content-center">
+                          {this.projectSelect(project.tools)}
                         </div>
-                        <div class="rectangle-projects" />
-                        <div class="row p-med whitespace offset-left">
-                          Project Size:{" "}
-                          {this.projectSizeSelect(project.projectsize)}
+                        <div class="row proj-brief justify-content-center">
+                          {project.descriptionbrief}
                         </div>
-                        <div class="row p-small whitespace offset-left">
-                          <li> {project.descriptionbrief} </li>
-                        </div>
-                        <button
-                          class="btn rect-button"
-                          onClick={(e) => this.showModal(e, index)}
-                        >
-                          <div class="p-med text-center text-white offset-left">
-                            Learn More
-                          </div>
-                        </button>
-                        <button class="btn p-small offset-left">
-                          <a
-                            class="default-link"
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <div class="row justify-content-center">
+                          <div
+                            class="btn-dark"
+                            onClick={(e) => this.showModal(e, index)}
                           >
-                            Github Repository/Website
-                          </a>
-                        </button>
+                            <div class="btn-dark-txt">Learn More</div>
+                          </div>
+                        </div>
+                        <div class="row justify-content-center">
+                          <div class="btn-light">
+                            <a
+                              class="nav-link btn-link"
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Github/Website
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="whitespace" />
@@ -162,19 +190,16 @@ class Projects extends Component {
                     onHide={this.hideModal}
                   >
                     <Modal.Header>
-                      <Modal.Title class="Modal-Font p-big">
+                      <Modal.Title class="modal-title">
                         "{project.title}"
                       </Modal.Title>
                     </Modal.Header>
-                    <Modal.Body class="Modal-Font">
+                    <Modal.Body class="modal-body">
                       <p> {project.descriptionmain1} </p>
                       <p> {project.descriptionmain2} </p>
                     </Modal.Body>
                     <Modal.Footer>
-                      <button
-                        class="btn rect-modal-button"
-                        onClick={this.hideModal}
-                      >
+                      <button class="btn modal-btn" onClick={this.hideModal}>
                         Close
                       </button>
                     </Modal.Footer>
