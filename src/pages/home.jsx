@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { HashLink } from "react-router-hash-link";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Fade from "react-reveal";
 import "./css/home.css";
 
