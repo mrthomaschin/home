@@ -17,7 +17,7 @@
         "nodejs"
       ],
       "github": "https://github.com/mrthomaschin",
-      "imgURL": "/tboard.jpeg",
+      "imgURL": "/readit-img.png",
       "section": "section-1"
     },
     {
@@ -29,8 +29,8 @@
       "descriptiontools": "Tools: C++, Amazon AWS, ATMega1284, Raspberry Pi",
       "tools": ["c++", "aws", "atmega", "raspberrypi"],
       "github": "https://github.com/mrthomaschin/CS179J-Team3",
-      "imgURL": "/tboard.jpeg",
-      "section": "section-1"
+      "imgURL": "/rmailbox-img.png",
+      "section": "section-2"
     },
     {
       "title": "Tboard",
@@ -41,8 +41,8 @@
       "descriptiontools": "Tools: C++, Arduino, Wii, UART, Embedded Systems",
       "tools": ["c++", "arduino", "uart", "wii"],
       "github": "https://github.com/mrthomaschin/Tboard",
-      "imgURL": "/tboard.jpeg",
-      "section": "section-2"
+      "imgURL": "/tboard-img.png",
+      "section": "section-3"
     },
     {
       "title": "Homepage",
@@ -53,8 +53,8 @@
       "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, Bootstrap",
       "tools": ["html", "css", "javascript", "reactjs", "bootstrap"],
       "github": "https://github.com/mrthomaschin/home",
-      "imgURL": "/macbook-updated.png",
-      "section": "section-3"
+      "imgURL": "/homepage-img.png",
+      "section": "section-4"
     },
     {
       "title": "MindTAPP",
@@ -65,8 +65,8 @@
       "descriptiontools": "Tools: HTML, CSS, Javascript, ASP .NET Core MVC, Firebase",
       "tools": ["html", "css", "javascript", "dotnetcore", "firebase"],
       "github": "https://mindtapp.com/#about",
-      "imgURL": "/mindtapp.png",
-      "section": "section-4"
+      "imgURL": "/mindtapp-img.png",
+      "section": "section-5"
     },
     {
       "title": "BioHack",
@@ -77,8 +77,8 @@
       "descriptiontools": "Tools: HTML, CSS, Javascript, Bootstrap",
       "tools": ["html", "css", "javascript", "bootstrap"],
       "github": "https://github.com/mrthomaschin/BioHack_2019",
-      "imgURL": "/biohack.png",
-      "section": "section-5"
+      "imgURL": "/biohack-img.png",
+      "section": "section-6"
     }
   ]
 }
