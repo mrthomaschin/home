@@ -35,9 +35,10 @@
 }
 .dark-mode-navlink {
   color: #ffffff !important;
+  transition: all 0.15s ease 0s;
 }
 .dark-mode-navlink:hover {
-  color: #ebf4f6 !important;
+  color: #bdbdbd !important;
 }
 
 #logo {

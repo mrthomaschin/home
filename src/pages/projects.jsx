@@ -205,7 +205,7 @@ class Projects extends Component {
                     <div class="row">
                       <div class="col-7">
                         <img
-                          class="proj-img"
+                          class="proj-img shadow-lg"
                           src={require("../Images/project_img" +
                             project.imgURL)}
                           alt="pic"

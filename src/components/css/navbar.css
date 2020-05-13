@@ -27,13 +27,14 @@ nav {
   font-style: normal;
   font-size: 20px;
   color: #58668b !important;
+  transition: all 0.15s ease 0s;
 }
 
 .navbar-link:hover {
   font-family: "circlular-std-book" !important;
   font-style: normal;
   font-size: 20px;
-  color: #58668b !important;
+  color: #9da8ca !important;
 }
 
 #logo {

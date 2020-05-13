@@ -12,7 +12,7 @@ function AddProject() {
       {Proj.Projects.map((project) => {
         return (
           <div class="project-brief-section">
-            <div class="project-brief-box">
+            <div class="project-brief-box shadow">
               <div class="container">
                 <div class="row">
                   <div class="project-brief-title project-brief-text">
@@ -71,7 +71,7 @@ class Home extends Component {
                 <div class="col-md-4">
                   <Fade>
                     <img
-                      class="profile-pic"
+                      class="profile-pic shadow"
                       src={require("../Images/me.png")}
                       alt="Me"
                     />
