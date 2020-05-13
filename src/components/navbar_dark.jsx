@@ -30,7 +30,11 @@ class NavBar extends Component {
               <div class="navbar-link-style">
                 <ul class="navbar-nav mr-auto">
                   <Link class="nav-link navbar-link dark-mode-navlink" to="/">
-                    t
+                    <img
+                      class="logo"
+                      src={require("../Images/Icons/Logo-White.png")}
+                      alt="logo-white"
+                    />
                   </Link>
                 </ul>
               </div>

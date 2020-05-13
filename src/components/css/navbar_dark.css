@@ -41,23 +41,6 @@
   color: #bdbdbd !important;
 }
 
-#logo {
-  position: absolute;
-  left: 2.99%;
-  right: 93.75%;
-  top: 17.14%;
-  bottom: 17.14%;
-
-  border: 4px solid #58668b;
-  box-sizing: border-box;
-
-  font-family: "circlular-std-bold" !important;
-  font-style: normal;
-  font-size: 50px;
-  line-height: 51px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-
-  color: #58668b;
+.logo {
+  width: 75%;
 }

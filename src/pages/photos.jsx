@@ -107,7 +107,7 @@ class Photography extends Component {
                 <div class="col-5 text-body ">
                   {" "}
                   <img
-                    class="photos-profile-img"
+                    class="photos-profile-img  shadow"
                     src={require("../Images/photography/lol.jpg")}
                     alt="pic"
                   />
@@ -127,7 +127,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[0])}
                       alt="pic"
@@ -137,7 +137,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[1])}
                       alt="pic"
@@ -147,7 +147,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[2])}
                       alt="pic"
@@ -157,7 +157,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[3])}
                       alt="pic"
@@ -167,7 +167,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[4])}
                       alt="pic"
@@ -177,7 +177,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[5])}
                       alt="pic"
@@ -196,7 +196,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/fam" +
                         slideImages2[0])}
                       alt="pic"
@@ -206,7 +206,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/fam" +
                         slideImages2[1])}
                       alt="pic"
@@ -226,7 +226,7 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/fam" +
                         slideImages2[3])}
                       alt="pic"
@@ -236,14 +236,14 @@ class Photography extends Component {
                 <div className="each-slide">
                   <div>
                     <img
-                      class="photos-img"
+                      class="photos-img shadow"
                       src={require("../Images/photography/fam" +
                         slideImages2[4])}
                       alt="pic"
                     />
                   </div>
                 </div>
-                <div className="each-slide">
+                {/* <div className="each-slide">
                   <div>
                     <img
                       class="photos-img"
@@ -252,7 +252,7 @@ class Photography extends Component {
                       alt="pic"
                     />
                   </div>
-                </div>
+                </div> */}
               </Slide>
             </div>
           </div>
