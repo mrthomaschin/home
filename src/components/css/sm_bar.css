@@ -1,7 +1,8 @@
 #handles {
   text-align: center;
-  height: 70px;
   background-color: #76b4bd;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .social-media-bar {
@@ -14,6 +15,10 @@
 }
 
 .handle-icon {
-  width: 3%;
-  padding-top: 3%;
+  width: 45px;
+  transition: all 0.2s ease 0s;
+}
+
+.handle-icon:hover {
+  width: 50px;
 }

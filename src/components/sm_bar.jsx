@@ -31,7 +31,7 @@ class SocialMedia extends Component {
                       <a id="email-link" href="mailto: thomasc246@gmail.com">
                         <img
                           src={require("../Images/Icons/social/mail.png")}
-                          width="45px"
+                          class="handle-icon"
                           alt="instagram"
                         />
                       </a>
@@ -45,7 +45,7 @@ class SocialMedia extends Component {
                       >
                         <img
                           src={require("../Images/Icons/social/linkedin.png")}
-                          width="45px"
+                          class="handle-icon"
                           alt="linkedin"
                         />
                       </a>
@@ -59,7 +59,7 @@ class SocialMedia extends Component {
                       >
                         <img
                           src={require("../Images/Icons/social/github.png")}
-                          width="45 px"
+                          class="handle-icon"
                           alt="github"
                         />
                       </a>
@@ -73,7 +73,7 @@ class SocialMedia extends Component {
                       >
                         <img
                           src={require("../Images/Icons/social/instagram.png")}
-                          width="45px"
+                          class="handle-icon"
                           alt="instagram"
                         />
                       </a>
@@ -87,7 +87,7 @@ class SocialMedia extends Component {
                       >
                         <img
                           src={require("../Images/Icons/social/facebook.png")}
-                          width="45px"
+                          class="handle-icon"
                           alt="instagram"
                         />
                       </a>

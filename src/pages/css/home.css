@@ -40,6 +40,7 @@
   font-size: 70px;
   color: #58668b;
   margin-left: 5%;
+  padding-left: 5%;
 }
 
 .body-text-1 {
@@ -50,6 +51,7 @@
   margin-bottom: 2%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-left: 5%;
 }
 
 .scroll-button {
@@ -70,6 +72,7 @@
   font-size: 25px;
   color: #58668b !important;
   padding-block-start: 2%;
+  transition: all 0.3s ease 0s;
 }
 
 .button-dark-blue:hover {
@@ -255,4 +258,13 @@
 
 .resume-link:hover {
   color: #bfcdd6 !important;
+}
+
+.home-handle-icon {
+  width: 55px;
+  transition: all 0.2s ease 0s;
+}
+
+.home-handle-icon:hover {
+  width: 60px;
 }

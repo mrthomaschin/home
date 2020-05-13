@@ -304,7 +304,7 @@ class Home extends Component {
                           >
                             <img
                               src={require("../Images/Icons/social/mail.png")}
-                              width="55px"
+                              class="home-handle-icon"
                               alt="instagram"
                             />
                           </a>
@@ -318,7 +318,7 @@ class Home extends Component {
                           >
                             <img
                               src={require("../Images/Icons/social/linkedin.png")}
-                              width="55px"
+                              class="home-handle-icon"
                               alt="linkedin"
                             />
                           </a>
@@ -332,7 +332,7 @@ class Home extends Component {
                           >
                             <img
                               src={require("../Images/Icons/social/github.png")}
-                              width="55 px"
+                              class="home-handle-icon"
                               alt="github"
                             />
                           </a>
@@ -346,7 +346,7 @@ class Home extends Component {
                           >
                             <img
                               src={require("../Images/Icons/social/instagram.png")}
-                              width="55px"
+                              class="home-handle-icon"
                               alt="instagram"
                             />
                           </a>
@@ -360,7 +360,7 @@ class Home extends Component {
                           >
                             <img
                               src={require("../Images/Icons/social/facebook.png")}
-                              width="55px"
+                              class="home-handle-icon"
                               alt="instagram"
                             />
                           </a>
