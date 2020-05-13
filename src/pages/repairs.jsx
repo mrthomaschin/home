@@ -80,9 +80,10 @@ class Repairs extends Component {
                   Some of the repairs I've done...
                   <li>Battery replacements</li>
                   <li>Hard drive upgrades</li>
-                  <li>LCD replacements</li>
+                  <li>LCD screen replacements</li>
                   <li>OS installation</li>
                   <li>Memory wiping</li>
+                  <li>Logic board replacments</li>
                 </div>
               </div>
             </div>
