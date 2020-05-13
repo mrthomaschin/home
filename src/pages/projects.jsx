@@ -204,12 +204,14 @@ class Projects extends Component {
                   <div class="projects-box">
                     <div class="row">
                       <div class="col-7">
-                        <img
-                          class="proj-img shadow-lg"
-                          src={require("../Images/project_img" +
-                            project.imgURL)}
-                          alt="pic"
-                        />
+                        <div class="proj-img-center">
+                          <img
+                            class="proj-img shadow-lg"
+                            src={require("../Images/project_img" +
+                              project.imgURL)}
+                            alt="pic"
+                          />
+                        </div>
                       </div>
                       <div class="col-5 project-content">
                         <div class="row proj-title spacing-default justify-content-center">
