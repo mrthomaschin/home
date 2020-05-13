@@ -72,12 +72,12 @@
   font-size: 25px;
   color: #58668b !important;
   padding-block-start: 2%;
-  transition: all 0.3s ease 0s;
+  transition: box-shadow 0.3s;
 }
 
 .button-dark-blue:hover {
-  color: #2d3447 !important;
-  border: 4px solid #2d3447;
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+  cursor: pointer;
 }
 
 .button-light-blue {
@@ -93,6 +93,21 @@
   font-family: "circular-std-bold";
   font-size: 25px;
   color: #ffffff;
+  padding-block-start: 1%;
+  transition: box-shadow 0.3s;
+}
+
+.button-light-blue:hover {
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.3);
+}
+
+.resume-link {
+  color: #ffffff !important;
+}
+
+.resume-link:hover {
+  text-decoration: none;
+  color: #ffffff !important;
 }
 
 #skills-brief {
@@ -250,14 +265,6 @@
   padding-top: 3%;
   padding-bottom: 3%;
   width: 45%;
-}
-
-.resume-link {
-  color: #ffffff !important;
-}
-
-.resume-link:hover {
-  color: #bfcdd6 !important;
 }
 
 .home-handle-icon {

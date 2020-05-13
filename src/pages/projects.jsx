@@ -233,16 +233,14 @@ class Projects extends Component {
                           </div>
                         </div>
                         <div class="row justify-content-center">
-                          <div class="btn-light">
-                            <a
-                              class="nav-link btn-link"
-                              href={project.github}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Github/Website
-                            </a>
-                          </div>
+                          <a
+                            class="btn-light nav-link btn-link"
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Github/Website
+                          </a>
                         </div>
                       </div>
                     </div>

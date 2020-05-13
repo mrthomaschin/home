@@ -104,15 +104,13 @@ class Home extends Component {
                             <div class="button-dark-blue">Learn More</div>
                           </Link>
                         </div>
-                        <div class="button-light-blue">
-                          <a
-                            class="nav-link resume-link"
-                            href="Thomas_Chin_Resume.pdf"
-                            download
-                          >
-                            Resumé
-                          </a>
-                        </div>
+                        <a
+                          class="button-light-blue resume-link"
+                          href="Thomas_Chin_Resume.pdf"
+                          download
+                        >
+                          Resumé
+                        </a>
                       </div>
                     </div>
                   </Fade>

@@ -81,6 +81,12 @@
   margin-left: 2%;
   text-align: center;
   padding: 2% 0;
+  transition: all 0.2s ease 0s;
+}
+
+.btn-dark:hover {
+  cursor: pointer;
+  background: #58668b !important;
 }
 
 .btn-dark-txt {
@@ -94,6 +100,7 @@
   height: 50px;
   border: 4px solid #76b4bd !important;
   background-color: #ffffff !important;
+  color: #76b4bd !important;
   box-sizing: border-box;
   border-radius: 50px;
   margin-top: 2%;
@@ -103,14 +110,13 @@
   text-align: center;
   font-family: "circular-std-bold";
   font-size: 15px;
+  transition: all 0.2s ease 0s;
 }
 
-.btn-link {
-  color: #76b4bd !important;
-}
-
-.btn-link:hover {
-  color: #000000 !important;
+.btn-light:hover {
+  cursor: pointer;
+  border: 4px solid #58668b !important;
+  color: #58668b !important;
 }
 
 .modal-title {
