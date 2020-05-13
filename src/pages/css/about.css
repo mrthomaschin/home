@@ -1,51 +1,42 @@
 @font-face {
-  font-family: "helvetica-neue-bold";
-  src: url("../../fonts/Helvetica\ Neu\ Bold.ttf") format("truetype");
+  font-family: "circular-std-book";
+  src: url("../../fonts/CircularStd-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "circular-std-med";
+  src: url("../../fonts/CircularStd-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "circular-std-bold";
+  src: url("../../fonts/CircularStd-Bold.otf") format("opentype");
 }
 
 #about-page {
-  height: 1200px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #about-title {
-  font-family: "helvetica-neue-bold";
+  font-family: "circular-std-bold";
   font-size: 50px;
-  padding-top: 50px;
+  margin-top: 2%;
+  color: #58668b;
 }
 
 #about-main {
-  font-family: "helvetica-neue-bold";
-  font-size: 20px;
-  padding-top: 30px;
+  font-family: "circular-std-book";
+  font-size: 18px;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
 }
 
-.about-text-box {
-  margin: auto;
-  width: 1000px;
-}
-.row {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
+#about-profile-pic {
+  width: 80%;
 }
 
-.rectangle {
-  height: 10px;
-  width: 500px;
-  background-color: #000000;
-  margin-left: -0px;
-}
-
-.row-space {
-  margin-bottom: 50px;
-}
-
-.col-space {
-  margin-left: 20px;
-}
-
-.ow-stripes {
-  max-width: 400px;
-  object-fit: contain;
+.paragraph {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }

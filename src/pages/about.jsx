@@ -27,24 +27,19 @@ class About extends Component {
           {/* NavBar */}
           <NavBar />
           <div id="about-page">
-            <div id="about-title" class="about-text-box">
-              <div class="row">
-                <div class="text-left">"ABOUT"</div>
-              </div>
-              <div class="row">
-                <div class="rectangle"></div>
-              </div>
+            <div class="row">
+              <div id="about-title">About</div>
             </div>
-            <div id="about-main" class="about-text-box">
+            <div id="about-main">
               <div class="row">
-                <div class="col-7">
-                  <div class="row row-space">
+                <div class="col-md-7">
+                  <div class="row paragraph">
                     I'm a 4th year studying Computer Engineering at the
                     University of California, Riverside, expected to graduate in
                     June 2020. I'm currently looking for full-time opportunities
                     as a software engineer/developer.
                   </div>
-                  <div class="row row-space">
+                  <div class="row paragraph">
                     My passion with software engineering is to be able to create
                     products that can change the world. Through the many skills
                     and hobbies, I want to be able to have positive impact on
@@ -52,7 +47,7 @@ class About extends Component {
                     opportunites and resources that have been provided for me,
                     and I aim to give back in any way that I can.
                   </div>
-                  <div class="row row-space">
+                  <div class="row paragraph">
                     Software has always been my area of interest, more
                     specifically app development, following the footsteps of my
                     father. My primary language is C++, with exposure to Java,
@@ -62,7 +57,7 @@ class About extends Component {
                     to learn more. I have also worked with hardware, with
                     Arudinos and Embedded-Systems as my personal favorite.
                   </div>
-                  <div class="row row-space">
+                  <div class="row paragraph">
                     I have many hobbies and interests that I actively pursue! I
                     enjoy studying and producing music as well as learning
                     skills in photography and media. I also love tinkering with
@@ -78,22 +73,13 @@ class About extends Component {
                     compose and produce all variations of music. ***FOR MUSIC SECTION**** */}
                   </div>
                 </div>
-                <div class="col-5">
-                  <div class="col-space">
-                    <div class="row">
-                      <img
-                        class="ow-stripes"
-                        src={require("../Images/lol2.png")}
-                        alt="owstripes"
-                      />
-                    </div>
-                    <div class="row">
-                      <img
-                        class="ow-stripes"
-                        src={require("../Images/ow_stripes.jpg")}
-                        alt="owstripes"
-                      />
-                    </div>
+                <div class="col-md-5">
+                  <div class="row justify-content-center">
+                    <img
+                      id="about-profile-pic"
+                      src={require("../Images/lol2.png")}
+                      alt="profile"
+                    />
                   </div>
                 </div>
               </div>

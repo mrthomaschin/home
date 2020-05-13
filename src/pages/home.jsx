@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { HashLink } from "react-router-hash-link";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./css/home.css";
 
 function AddProject() {
@@ -89,19 +90,25 @@ class Home extends Component {
                     </div>
                     <div class="container">
                       <div class="row justify-content-center">
-                        <div class="button-dark-blue">
-                          <div class="button-dark-blue-text">Learn More</div>
+                        <div class="scroll-button">
+                          <Link
+                            activeClass="active"
+                            to="skills-brief"
+                            spy={true}
+                            smooth={true}
+                            duration={1400}
+                          >
+                            <div class="button-dark-blue">Learn More</div>
+                          </Link>
                         </div>
                         <div class="button-light-blue">
-                          <div class="button-light-blue-text">
-                            <a
-                              class="nav-link resume-link"
-                              href="Thomas_Chin_Resume.pdf"
-                              download
-                            >
-                              Resumé
-                            </a>
-                          </div>
+                          <a
+                            class="nav-link resume-link"
+                            href="Thomas_Chin_Resume.pdf"
+                            download
+                          >
+                            Resumé
+                          </a>
                         </div>
                       </div>
                     </div>

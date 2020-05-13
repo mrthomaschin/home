@@ -8,26 +8,34 @@
   src: url("../../fonts/CircularStd-Medium.ttf") format("truetype");
 }
 
-.background1 {
+#repairs-title {
   background-color: #181830;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 10%;
 }
 
-.background2 {
+#repairs-body {
   background-color: #363a46;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 6%;
+  padding-left: 6%;
 }
 
-.background3 {
+#repairs-list {
   background-color: #001540;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 6%;
+  padding-left: 6%;
 }
+
 #main-text-repairs {
   font-size: 75px;
   color: #ffffff;
   font-family: "circular-std-med";
-}
-
-#first-page {
-  height: 100%;
-  line-height: 100px;
 }
 
 #main-pic {
@@ -37,35 +45,12 @@
   margin: 0 auto;
 }
 
-#summary {
-  height: 100%;
-}
-
-#parts-list {
-  height: 100%;
-}
-
-.first-page-space {
-  padding-top: 40px;
-  padding-bottom: 70px;
-}
-
 .text-repairs {
   font-size: 30px;
   color: #ffffff;
   font-family: "circular-std-med";
-}
-
-.text-box {
-  margin: auto;
-  width: 1100px;
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-
-.row {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }

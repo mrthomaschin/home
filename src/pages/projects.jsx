@@ -88,6 +88,70 @@ class Projects extends Component {
             alt="pic"
           />
         );
+      } else if (element[x] === "firebase") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-firebase-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "restapi") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-rest-api-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "mongodb") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-mongodb-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "nodejs") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-node-js-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "aws") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-amazon-web-services-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "raspberrypi") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-raspberry-pi-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "wii") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-wii-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "atmega") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/mchp.png")}
+            alt="pic"
+          />
+        );
       }
     }
     return tools;
@@ -142,7 +206,8 @@ class Projects extends Component {
                       <div class="col-7">
                         <img
                           class="proj-img"
-                          src={require("../Images" + project.imgURL)}
+                          src={require("../Images/project_img" +
+                            project.imgURL)}
                           alt="pic"
                         />
                       </div>
@@ -191,12 +256,13 @@ class Projects extends Component {
                   >
                     <Modal.Header>
                       <Modal.Title class="modal-title">
-                        "{project.title}"
+                        {project.title}
                       </Modal.Title>
                     </Modal.Header>
                     <Modal.Body class="modal-body">
                       <p> {project.descriptionmain1} </p>
                       <p> {project.descriptionmain2} </p>
+                      <p> {project.descriptiontools} </p>
                     </Modal.Body>
                     <Modal.Footer>
                       <button class="btn modal-btn" onClick={this.hideModal}>

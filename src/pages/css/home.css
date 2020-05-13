@@ -52,24 +52,29 @@
   margin-right: 5%;
 }
 
+.scroll-button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
 .button-dark-blue {
   width: 213px;
   height: 56px;
   border: 4px solid #58668b;
   box-sizing: border-box;
   border-radius: 50px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: 2%;
-  margin-left: 2%;
   text-align: center;
-}
-
-.button-dark-blue-text {
   font-family: "circular-std-bold";
   font-size: 25px;
-  color: #58668b;
-  padding: 2% 0;
+  color: #58668b !important;
+  padding-block-start: 2%;
+}
+
+.button-dark-blue:hover {
+  color: #2d3447 !important;
+  border: 4px solid #2d3447;
 }
 
 .button-light-blue {
@@ -82,9 +87,6 @@
   margin-right: 2%;
   margin-left: 2%;
   text-align: center;
-}
-
-.button-light-blue-text {
   font-family: "circular-std-bold";
   font-size: 25px;
   color: #ffffff;
