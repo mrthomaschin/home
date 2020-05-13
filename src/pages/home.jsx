@@ -3,6 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import NavBar from "../components/navbar.jsx";
 import Proj from "../data/projects.json";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Fade from "react-reveal";
 import "./css/home.css";
 
 function AddProject() {
@@ -68,14 +69,16 @@ class Home extends Component {
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-md-4">
-                  <img
-                    class="profile-pic"
-                    src={require("../Images/me.png")}
-                    alt="Me"
-                  />
+                  <Fade>
+                    <img
+                      class="profile-pic"
+                      src={require("../Images/me.png")}
+                      alt="Me"
+                    />
+                  </Fade>
                 </div>
                 <div class="col-md-8">
-                  <div class="container">
+                  <Fade class="container">
                     <div class="row">
                       <div class="title-text-1">Hello! I'm Thomas.</div>
                     </div>
@@ -112,7 +115,7 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Fade>
                 </div>
               </div>
             </div>
