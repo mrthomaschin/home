@@ -51,10 +51,14 @@ class Home extends Component {
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"
           />
-          <meta property="og:title" content=" Main Page" />
-          <meta property="og:site_name" content="Personal Website" />
+          <meta property="og:title" content="Thomas Chin: Portfolio Website" />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content="" />
+          <meta property="og:image" content="./websiteimg.png" />
+          <meta
+            property="og:description"
+            content="During my time in the first few weeks of quaratine from COVID-19, I decided to create a personal website. This website was not just to hone my skills in website development, but to also showcase my passions. In my website you'll find my personal projects, hobbies, and other works that all encompass my life in some way. Built using React JS and hosted with GitHub Pages."
+          />
+          <meta property="og:url" content="//thomaschin.me" />
           <meta charset="utf-8" />
           <meta
             name="viewport"
