@@ -38,10 +38,11 @@ class About extends Component {
                 <div class="col-md-7">
                   <div class="row paragraph">
                     <Fade>
-                      I'm a 4th year studying Computer Engineering at the
-                      University of California, Riverside, expected to graduate
-                      in June 2020. I'm currently looking for full-time
-                      opportunities as a software engineer/developer.
+                      Hi! My name is Thomas. I'm a 4th year studying Computer
+                      Engineering at the University of California, Riverside,
+                      expected to graduate in July 2020. I'm currently looking
+                      for full-time opportunities as a software
+                      engineer/developer.
                     </Fade>
                   </div>
 
@@ -50,10 +51,11 @@ class About extends Component {
                       My passion with software engineering is to be able to
                       create products that can change the world. Through the
                       many skills and hobbies, I want to be able to have
-                      positive impact on people's lives. I'm extremely grateful
-                      for all of the opportunites and resources that have been
-                      provided for me, and I aim to give back in any way that I
-                      can.
+                      positive impact on people's lives. There's nothing more
+                      satisfying than putting a smile on someone's face! I'm
+                      extremely grateful for all of the opportunites and
+                      resources that have been provided for me, and I aim to
+                      give back in any way that I can.
                     </Fade>
                   </div>
                   <div class="row paragraph">
@@ -62,11 +64,11 @@ class About extends Component {
                       specifically app development, following the footsteps of
                       my father. My primary language is C++, with exposure to
                       Java, C, and C#. I've worked on website development and
-                      utilized tools such as React JS, Bootstrap, and .NET Core.
-                      I have also had exposure to mobile app development, and
-                      would love to learn more. I have also worked with
-                      hardware, with Arudinos and Embedded-Systems as my
-                      personal favorite.
+                      utilized tools such as React JS, Node JS, Bootstrap,
+                      RESTful APIs,and .NET Core. I have also had exposure to
+                      mobile app development, and would love to learn more. I
+                      also enjoy working with hardware, with Arudinos and
+                      Embedded-Systems as my personal favorite.
                     </Fade>
                   </div>
                   <div class="row paragraph">
@@ -84,6 +86,12 @@ class About extends Component {
                     others to enjoy. I also have self-taught myself guitar and
                     other instruments. In the future I want to be able to
                     compose and produce all variations of music. ***FOR MUSIC SECTION**** */}
+                    </Fade>
+                  </div>
+                  <div class="row paragraph">
+                    <Fade>
+                      If you want to talk about Roger Federer, Star Wars, or
+                      anything else, let's chat :)
                     </Fade>
                   </div>
                 </div>
