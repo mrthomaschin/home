@@ -152,6 +152,22 @@ class Projects extends Component {
             alt="pic"
           />
         );
+      } else if (element[x] === "travis") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-travis-ci-480.png")}
+            alt="pic"
+          />
+        );
+      } else if (element[x] === "python") {
+        tools.push(
+          <img
+            class="tools-img"
+            src={require("../Images/Icons/skills/icons8-python-480.png")}
+            alt="pic"
+          />
+        );
       }
     }
     return tools;

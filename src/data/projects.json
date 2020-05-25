@@ -21,13 +21,25 @@
       "section": "section-1"
     },
     {
+      "title": "Homepage",
+      "date": "Mar 2020 - Present",
+      "descriptionbrief": "What you're looking at right now: my personal website!",
+      "descriptionmain1": "I'm proud to say that I have built my own personal website from scratch. Websites are great ways to only display personal projects, but also hobbies and interests so you can get to learn a little more about me. React is a powerful tool for creating clean and organized UI. I chose 'Off-White', Virgil Abloh's signature designer brand, as my main theme.",
+      "descriptionmain2": "I constructed this website using React.js and modifying it to deploy through Github Pages. For the 'Projects' sections, my website dynamically renders the designs based on a JSON file. That way, if I have any new projects I can simply add it into my JSON file and the website will do the rest of the work. I personally have never taken classes on these languages/tools, so this website has been a fruitful learning experiences for me!",
+      "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, Bootstrap",
+      "tools": ["html", "css", "javascript", "reactjs", "bootstrap"],
+      "github": "https://github.com/mrthomaschin/home",
+      "imgURL": "/homepage-img.png",
+      "section": "section-4"
+    },
+    {
       "title": "R'Mailbox",
       "date": "Mar 2020 - Present",
       "descriptionbrief": "An IoT Mailbox designed to keep your packages safe. Goodbye mail theft.",
       "descriptionmain1": "For our embedded-systems senior design project, our team wanted to design a system that could tackle a current problem. Mail theft has been prevalent around the country, with countless videos of passerbys swooping up packages off people's front porch. The R'Mailbox provides a safe and secure alternative for delivering packages while homeowners are out of the house.",
       "descriptionmain2": "The R'Mailbox utilizes a Raspberry Pi and ATMega1284 connected together via SPI. IR sensors detect when packages are placed inside and locks the door the moment it is shut. We implemented facial recognition and a finger print scanner to open the door. Mail services can also press a button which sends an SMS text to the user, to which he/she can unlock the door remotely. Lastly, we added AWS integration which lets users know when packages arrive and/or when the door is opened or closed.",
-      "descriptiontools": "Tools: C++, Amazon AWS, ATMega1284, Raspberry Pi",
-      "tools": ["c++", "aws", "atmega", "raspberrypi"],
+      "descriptiontools": "Tools: C++, Python, Amazon AWS, ATMega1284, Raspberry Pi, Travis CI, Embedded-Systems",
+      "tools": ["c++", "python", "aws", "atmega", "raspberrypi", "travis"],
       "github": "https://github.com/mrthomaschin/CS179J-Team3",
       "imgURL": "/rmailbox-img.png",
       "section": "section-2"
@@ -43,18 +55,6 @@
       "github": "https://github.com/mrthomaschin/Tboard",
       "imgURL": "/tboard-img.png",
       "section": "section-3"
-    },
-    {
-      "title": "Homepage",
-      "date": "Mar 2020 - Present",
-      "descriptionbrief": "What you're looking at right now: my personal website!",
-      "descriptionmain1": "I'm proud to say that I have built my own personal website from scratch. Websites are great ways to only display personal projects, but also hobbies and interests so you can get to learn a little more about me. React is a powerful tool for creating clean and organized UI. I chose 'Off-White', Virgil Abloh's signature designer brand, as my main theme.",
-      "descriptionmain2": "I constructed this website using React.js and modifying it to deploy through Github Pages. For the 'Projects' sections, my website dynamically renders the designs based on a JSON file. That way, if I have any new projects I can simply add it into my JSON file and the website will do the rest of the work. I personally have never taken classes on these languages/tools, so this website has been a fruitful learning experiences for me!",
-      "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, Bootstrap",
-      "tools": ["html", "css", "javascript", "reactjs", "bootstrap"],
-      "github": "https://github.com/mrthomaschin/home",
-      "imgURL": "/homepage-img.png",
-      "section": "section-4"
     },
     {
       "title": "MindTAPP",
