@@ -100,7 +100,7 @@ class About extends Component {
                     <Fade>
                       <img
                         id="about-profile-pic"
-                        src={require("../Images/lol2.png")}
+                        src={require("../Images/me.jpg")}
                         alt="profile"
                       />
                     </Fade>

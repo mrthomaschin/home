@@ -5,12 +5,15 @@ import { Slide } from "react-slideshow-image";
 import "./css/photos.css";
 
 const slideImages1 = [
-  "/dana1.jpg",
+  "/abby1.jpg",
   "/allison1.jpg",
   "/life1.jpg",
+  "/abby2.jpg",
   "/ty1.jpg",
+  "/katie1.jpg",
   "/stacy1.jpg",
   "/dana2.jpg",
+  "/katie2.jpg",
 ];
 const slideImages2 = [
   "/wu1.jpg",
@@ -180,6 +183,36 @@ class Photography extends Component {
                       class="photos-img shadow"
                       src={require("../Images/photography/grad" +
                         slideImages1[5])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img shadow"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[6])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img shadow"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[7])}
+                      alt="pic"
+                    />
+                  </div>
+                </div>
+                <div className="each-slide">
+                  <div>
+                    <img
+                      class="photos-img shadow"
+                      src={require("../Images/photography/grad" +
+                        slideImages1[8])}
                       alt="pic"
                     />
                   </div>
