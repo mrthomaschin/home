@@ -1,26 +1,6 @@
 {
   "Projects": [
     {
-      "title": "Readit",
-      "date": "Mar 2020 - Present",
-      "descriptionbrief": "Providing college representatives with the buzz about their university.",
-      "descriptionmain1": "College tours are great. They provide loads of information and set the first impressions of a university. But when prospective students need information about a college, the first option they go to is most likely not college tours...it will ultimately be people that have experienced that university, both good and bad. People are not afraid to voice their opinions on social media, and this can either help or hurt the college.",
-      "descriptionmain2": "Readit is a website application that provides college representatives and recruiters with information about what's going around about their school. They will be able to find out what people think about everything, from the quality of education to the quality of the food on-campus. With this in mind, representatives can utilitze the positives and tackle the negatives to create a better representation of their university. Readit provides up-to-date information gathered from various social media platforms, such as Reddit. Think of it as a stock market monitoring app, but for the word around town about universities.",
-      "descriptiontools": "Tools: HTML, CSS, Javascript, React JS, REST API, MongoDB, Node JS",
-      "tools": [
-        "html",
-        "css",
-        "javascript",
-        "reactjs",
-        "restapi",
-        "mongodb",
-        "nodejs"
-      ],
-      "github": "https://github.com/mrthomaschin",
-      "imgURL": "/readit-img.png",
-      "section": "section-1"
-    },
-    {
       "title": "Homepage",
       "date": "Mar 2020 - Present",
       "descriptionbrief": "What you're looking at right now: my personal website!",

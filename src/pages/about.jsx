@@ -38,11 +38,9 @@ class About extends Component {
                 <div class="col-md-7">
                   <div class="row paragraph">
                     <Fade>
-                      Hi! My name is Thomas. I'm a 4th year studying Computer
-                      Engineering at the University of California, Riverside,
-                      expected to graduate in July 2020. I'm currently looking
-                      for full-time opportunities as a software
-                      engineer/developer.
+                      Hi! My name is Thomas. I'm currently a Software Engineer
+                      at Snap Inc. I graduated from the University of
+                      California, Riverside in July 2020.
                     </Fade>
                   </div>
 

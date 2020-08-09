@@ -94,11 +94,9 @@ class Home extends Component {
                     </div>
                     <div class="row">
                       <div class="body-text-1">
-                        4th-year studying Computer Engineering at the University
-                        of California, Riverside. Fascinated in all things
-                        technology. Deeply passionate about creating others that
-                        will have a positive impact on the world and benefit
-                        others!
+                        Fascinated in all things technology. Deeply passionate
+                        about creating others that will have a positive impact
+                        on the world and benefit others!
                       </div>
                     </div>
                     <div class="container">
