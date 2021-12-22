@@ -63,7 +63,7 @@ class Home extends Component {
             property="og:description"
             content="During my time in the first few weeks of quaratine from COVID-19, I decided to create a personal website. This website was not just to hone my skills in website development, but to also showcase my passions. In my website you'll find my personal projects, hobbies, and other works that all encompass my life in some way. Built using React JS and hosted with GitHub Pages."
           />
-          <meta property="og:url" content="//thomaschin.me" />
+          <meta property="og:url" content="//mrthomaschin.github.io" />
           <meta name="author" content="Thomas Chin"></meta>
           <meta charset="utf-8" />
           <meta
