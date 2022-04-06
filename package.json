@@ -15,7 +15,6 @@
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.3.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.6",
     "react-slideshow-image": "^3.7.1"
   },
@@ -43,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "react-scripts": "^5.0.0",
     "gh-pages": "^3.2.3"
   }
 }

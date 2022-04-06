@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Routes, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 /* Website Components */
 import HomePage from "./pages/home.jsx";
@@ -13,14 +13,14 @@ import MusicPage from "./pages/music.jsx";
 class App extends Component {
   render() {
     return (
-      <Routes>
+      <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/projects" component={ProjectsPage} />
         <Route path="/repairs" component={RepairsPage} />
         <Route path="/photography" component={PhotosPage} />
         <Route path="/music" component={MusicPage} />
-      </Routes>
+      </Switch>
     );
   }
 }
